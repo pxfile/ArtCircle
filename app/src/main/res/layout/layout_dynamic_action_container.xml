@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="15dp">
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_dynamic_action_follow_container"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_horizontal">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/settings_selected" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_dynamic_action_follow"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="关注" />-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/ll_dynamic_action_praise_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_dynamic_action_praise"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/dynamic_to_praise"/>
+
+        <TextView
+            android:id="@+id/tv_dynamic_action_praise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/tag_praise"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_dynamic_action_comments_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_dynamic_action_comments"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/dynamic_to_comment"/>
+
+        <TextView
+            android:id="@+id/tv_dynamic_action_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/dynamic_action_comments"/>
+    </LinearLayout>
+</LinearLayout>

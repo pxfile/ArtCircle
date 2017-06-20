@@ -1,0 +1,430 @@
+[
+    {
+        "outputFile": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/incremental/mergeH5DebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 289,
+                        "endColumn": 76,
+                        "endOffset": 361
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 132,
+                    "endColumn": 70,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 601,
+                        "endColumn": 70,
+                        "endOffset": 667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 70,
+                    "endOffset": 269
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 672,
+                        "endColumn": 70,
+                        "endOffset": 738
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 274,
+                    "endColumn": 69,
+                    "endOffset": 339
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 743,
+                        "endColumn": 69,
+                        "endOffset": 808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 344,
+                    "endColumn": 69,
+                    "endOffset": 409
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 813,
+                        "endColumn": 69,
+                        "endOffset": 878
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 414,
+                    "endColumn": 67,
+                    "endOffset": 477
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 883,
+                        "endColumn": 67,
+                        "endOffset": 946
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 482,
+                    "endColumn": 67,
+                    "endOffset": 545
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 951,
+                        "endColumn": 67,
+                        "endOffset": 1014
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 550,
+                    "endColumn": 63,
+                    "endOffset": 609
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1019,
+                        "endColumn": 63,
+                        "endOffset": 1078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 614,
+                    "endColumn": 52,
+                    "endOffset": 662
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/src/main/res/values-xlarge/dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 682,
+                        "endColumn": 52,
+                        "endOffset": 730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 667,
+                    "endColumn": 53,
+                    "endOffset": 716
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/src/main/res/values-xlarge/dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 736,
+                        "endColumn": 53,
+                        "endOffset": 785
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 721,
+                    "endColumn": 54,
+                    "endOffset": 771
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1083,
+                        "endColumn": 54,
+                        "endOffset": 1133
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/incremental/mergeH5DebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 289,
+                        "endColumn": 76,
+                        "endOffset": 361
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 132,
+                    "endColumn": 70,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 601,
+                        "endColumn": 70,
+                        "endOffset": 667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 70,
+                    "endOffset": 269
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 672,
+                        "endColumn": 70,
+                        "endOffset": 738
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 274,
+                    "endColumn": 69,
+                    "endOffset": 339
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 743,
+                        "endColumn": 69,
+                        "endOffset": 808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 344,
+                    "endColumn": 69,
+                    "endOffset": 409
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 813,
+                        "endColumn": 69,
+                        "endOffset": 878
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 414,
+                    "endColumn": 67,
+                    "endOffset": 477
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 883,
+                        "endColumn": 67,
+                        "endOffset": 946
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 482,
+                    "endColumn": 67,
+                    "endOffset": 545
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 951,
+                        "endColumn": 67,
+                        "endOffset": 1014
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 550,
+                    "endColumn": 63,
+                    "endOffset": 609
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1019,
+                        "endColumn": 63,
+                        "endOffset": 1078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 614,
+                    "endColumn": 52,
+                    "endOffset": 662
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/src/main/res/values-xlarge/dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 682,
+                        "endColumn": 52,
+                        "endOffset": 730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 667,
+                    "endColumn": 53,
+                    "endOffset": 716
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/src/main/res/values-xlarge/dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 736,
+                        "endColumn": 53,
+                        "endOffset": 785
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 721,
+                    "endColumn": 54,
+                    "endOffset": 771
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge/values-xlarge.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1083,
+                        "endColumn": 54,
+                        "endOffset": 1133
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,1798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<resources>-->
+
+<!--<string name="app_name">画家圈</string>-->
+<!--<string name="app_desc">一个专注艺术家的圈儿</string>-->
+<!--<string name="text_ack_msg">Read</string>-->
+<!--<string name="text_delivered_msg">Delivered</string>-->
+<!--<string name="back">Back</string>-->
+<!--<string name="save">Save</string>-->
+<!--<string name="button_pushtotalk">Hold to talk</string>-->
+<!--<string name="button_send">Send</string>-->
+<!--<string name="attach_smile">Emoticon</string>-->
+<!--<string name="attach_picture">Image</string>-->
+<!--<string name="attach_take_pic">Capture</string>-->
+<!--<string name="attach_location">Location</string>-->
+<!--<string name="attach_video">Video</string>-->
+<!--<string name="attach_file">File</string>-->
+<!--<string name="attach_voice_call">Voice call</string>-->
+<!--<string name="attach_video_call">Video call</string>-->
+<!--<string name="user_card">Business card</string>-->
+<!--<string name="move_up_to_cancel">Finger up to cancel sending</string>-->
+<!--<string name="release_to_cancel">Finger release to cancel sending</string>-->
+<!--<string name="send_fail">Send failed</string>-->
+<!--<string name="delete_message">Delete message</string>-->
+<!--<string name="delete_conversation_messages">Delete conversation and messages</string>-->
+<!--<string name="delete_conversation">Delete conversation</string>-->
+<!--<string name="copy_message">Copy message</string>-->
+<!--<string name="delete_voice">Delete voice</string>-->
+<!--<string name="delete_video">Delete video</string>-->
+<!--<string name="delete">Delete</string>-->
+<!--<string name="resend">Resend</string>-->
+<!--<string name="confirm_resend">Confirm to resend？</string>-->
+<!--<string name="connect_failuer_toast">Please check the network or try again later</string>-->
+<!--<string name="network_unavailable">The network connection is not available, please check the network</string>-->
+<!--<string name="copy">Copy</string>-->
+<!--<string name="forward">Forward</string>-->
+<!--<string name="button_logout">Logout</string>-->
+<!--<string name="button_uploadlog">Upload the log</string>-->
+<!--<string name="ok">OK</string>-->
+<!--<string name="cancel">Cancel</string>-->
+<!--<string name="prompt">Prompt</string>-->
+<!--<string name="clear_records">Clear conversation?</string>-->
+<!--<string name="clear_all_records">Clear all conversations？</string>-->
+<!--<string name="location_recv">[%1$s location]</string>-->
+<!--<string name="location_message">The location information</string>-->
+<!--<string name="recording_video">Record video</string>-->
+<!--<string name="location_prefix">[my location]</string>-->
+<!--<string name="voice">Voice</string>-->
+<!--<string name="picture">[Picture]</string>-->
+<!--<string name="video">[Video]</string>-->
+<!--<string name="file">[file]</string>-->
+<!--<string name="voice_call">[Voice call]</string>-->
+<!--<string name="button_cancel">Cancel</string>-->
+<!--<string name="button_save">Save</string>-->
+<!--<string name="button_search">Find</string>-->
+<!--<string name="button_add">Add</string>-->
+<!--<string name="search_header">Search</string>-->
+<!--<string name="network_isnot_available">The network is not available</string>-->
+<!--<string name="recoding_fail">The recording failure, please try again！</string>-->
+<!--<string name="select_contacts">Select the contact</string>-->
+<!--<string name="confirm_forward_to">Confirm to forward to：%1$s ?</string>-->
+<!--<string name="logout">Logout</string>-->
+<!--<string name="logout_hint">Logout will never clear the chat history, this account can be used on next login</string>-->
+<!--<string name="exit_group_hint">The group messages will not be received after exiting the group</string>-->
+<!--<string name="dissolution_group_hint">The group will be dismissed after exiting</string>-->
+<!--<string name="exit_group">Exit</string>-->
+<!--<string name="connect_conflict">The same account was loggedin in other device</string>-->
+<!--<string name="em_user_remove">This user has been removed</string>-->
+<!--<string name="set">Settings</string>-->
+<!--<string name="notify">New message notification</string>-->
+<!--<string name="newnotify">Receiving a new message</string>-->
+<!--<string name="shake">Shake</string>-->
+<!--<string name="chatset">Chat settings</string>-->
+<!--<string name="yangshengqi">Use speaker</string>-->
+<!--<string name="book_black">Black list</string>-->
+<!--<string name="session">Conversation</string>-->
+<!--<string name="address_book">Address book</string>-->
+<!--<string name="dynamics">Dynamics</string>-->
+<!--<string name="setting">Settings</string>-->
+<!--<string name="now_refresh_list">Refreshing contact list</string>-->
+<!--<string name="application_and_notify">Invitation and notification</string>-->
+<!--<string name="save_new_nickname">Save new nickname</string>-->
+<!--<string name="group_chat">Group chat</string>-->
+<!--<string name="add_friend">Add friends</string>-->
+<!--<string name="search">Search</string>-->
+<!--<string name="black_item">Black list</string>-->
+<!--<string name="diagnose">Diagnose</string>-->
+<!--<string name="push_nick">IOS offline push nick</string>-->
+<!--<string name="Current_version">Current version</string>-->
+<!--<string name="Not_Set">Not set</string>-->
+<!--<string name="Upload_the_log">Uploading the log</string>-->
+<!--<string name="The_new_group_chat">Create new group</string>-->
+<!--<string name="group_name">Group name</string>-->
+<!--<string name="Group_chat_profile">Group profile</string>-->
+<!--<string name="Whether_the_public">Is public</string>-->
+<!--<string name="Open_group_members_invited">Allow members to invite</string>-->
+<!--<string name="Open_group_chat">Public group</string>-->
+<!--<string name="blacklist">Black list</string>-->
+<!--<string name="Empty_the_chat_record">Clear conversation</string>-->
+<!--<string name="Shielding_of_the_message">Block message</string>-->
+<!--<string name="Select_the_contact">Select the contact</string>-->
+<!--<string name="Group_chat_information">The group description</string>-->
+<!--<string name="Group_of_Lord">The group owner</string>-->
+<!--<string name="Introduction">Brief</string>-->
+<!--<string name="To_join_the_chat">Join the group</string>-->
+<!--<string name="login">Login</string>-->
+<!--<string name="user_name">User name</string>-->
+<!--&lt;!&ndash;<string name="password">Password</string>&ndash;&gt;-->
+<!--<string name="register">Register</string>-->
+<!--<string name="confirmpassword">Confirm password</string>-->
+<!--<string name="downwaiting">Downloading the file, please try again later</string>-->
+<!--<string name="mute">Mute</string>-->
+<!--<string name="Hands_free">Hands free</string>-->
+<!--<string name="hang_up">Hang up</string>-->
+<!--<string name="answer">Answer</string>-->
+<!--<string name="unable_to_connect">Unable to connect to the server</string>-->
+<!--<string name="newchat">Create new group</string>-->
+<!--<string name="agree">Agree</string>-->
+<!--<string name="Group_chat">Group chat</string>-->
+<!--<string name="chat_room">Chat room</string>-->
+<!--<string name="not_download">Did not download:</string>-->
+<!--<string name="is_down_please_wait">Downloading video, please try again later</string>-->
+<!--<string name="Exit_the_group_chat">Exit the group</string>-->
+<!--<string name="Please_enter_a_username">Please enter a username</string>-->
+
+<!--<string name="not_add_myself">"Can't add myself"</string>-->
+<!--<string name="This_user_is_already_your_friend">This user is already your friend</string>-->
+<!--<string name="Add_a_friend">Let me to be your friend!</string>-->
+<!--<string name="send_successful">Request was sent, waiting for the peer to accept</string>-->
+<!--<string name="Request_add_buddy_failure">Request add buddy failure:</string>-->
+<!--<string name="Network_error">Network error</string>-->
+<!--<string name="Making_sure_your_location">Making sure your location..</string>-->
+<!--<string name="please_check">key validation error!Please on AndroidManifest.xml file check the key set</string>-->
+<!--<string name="expression">[expression]</string>-->
+<!--<string name="Removed_from_the_failure">Removed fail</string>-->
+<!--<string name="be_removing">Be removing</string>-->
+<!--<string name="call_duration">call duration</string>-->
+<!--<string name="Refused">Refused</string>-->
+<!--<string name="The_other_party_has_refused_to">Call was refused</string>-->
+<!--<string name="The_other_is_not_online">The peer is not online</string>-->
+<!--<string name="The_other_is_on_the_phone">The peer is on the phone</string>-->
+<!--<string name="The_other_party_did_not_answer">The peer did not answer</string>-->
+<!--<string name="did_not_answer">did not answer</string>-->
+<!--<string name="Has_been_cancelled">Cancelled</string>-->
+<!--<string name="unable_to_get_loaction">Unable to get to your location information!</string>-->
+<!--<string name="not_connect_to_server">Not connect to server, please try again later</string>-->
+<!--<string name="sd_card_does_not_exist">"SD card does not exist, can't take pictures"</string>-->
+<!--<string name="cant_find_pictures">"Can't find pictures"</string>-->
+<!--<string name="File_does_not_exist">File does not exist</string>-->
+<!--<string name="The_file_is_not_greater_than_10_m">The file is not greater than 10 m</string>-->
+<!--<string name="Whether_to_empty_all_chats">Clear all messages?</string>-->
+<!--<string name="Send_voice_need_sdcard_support">Send voice need sdcard support</string>-->
+<!--<string name="Recording_without_permission">Recording without permission</string>-->
+<!--<string name="The_recording_time_is_too_short">The recording time is too short</string>-->
+<!--<string name="send_failure_please">Send failure, please test whether the server connection</string>-->
+<!--<string name="Move_into_blacklist_success">Move into blacklist success</string>-->
+<!--<string name="Move_into_blacklist_failure">Move into blacklist failure</string>-->
+<!--<string name="you_are_group">You have been kicked off from the group</string>-->
+<!--<string name="the_current_group">The current group has been dismissed</string>-->
+<!--<string name="Cant_chat_with_yourself">cannot chat with yourself</string>-->
+<!--<string name="deleting">Deleting..</string>-->
+<!--<string name="delete_failed">Failed to delete</string>-->
+<!--<string name="Is_moved_into_blacklist">Moving to blacklist..</string>-->
+<!--<string name="Log_uploaded_successfully">Log was uploaded successfully</string>-->
+<!--<string name="Log_Upload_failed">Failed to upload the log</string>-->
+<!--<string name="get_failed_please_check">Failed to retrieve, please check the network or try again later</string>-->
+<!--<string name="people">people</string>-->
+<!--<string name="being_added">added</string>-->
+<!--<string name="is_quit_the_group_chat">Exiting group</string>-->
+<!--<string name="chatting_is_dissolution">Dismissing group</string>-->
+<!--<string name="are_empty_group_of_news">Clearing messages</string>-->
+<!--<string name="is_modify_the_group_name">Modifying the group name..</string>-->
+<!--<string name="Modify_the_group_name_successful">Modify the group name successful</string>-->
+<!--<string name="change_the_group_name_failed_please">Failed to change the group name, please check the network or try again later</string>-->
+<!--<string name="Are_moving_to_blacklist">Moving to blacklist</string>-->
+<!--<string name="failed_to_move_into">Failed to move to the blacklist, please check the network or try again later</string>-->
+<!--<string name="Exit_the_group_chat_failure">Failed to exit the group:</string>-->
+<!--<string name="Dissolve_group_chat_tofail">Failed to dismiss the group:</string>-->
+<!--<string name="Add_group_members_fail">Add group members fail:</string>-->
+<!--<string name="Is_unblock">Unblocking group</string>-->
+<!--<string name="remove_group_of">Remove group of shielding failure, please check the network or try again later</string>-->
+<!--<string name="group_is_blocked">Blocking the group..</string>-->
+<!--<string name="group_of_shielding">Group of shielding failure, please check the network or try again later</string>-->
+<!--<string name="sure_to_empty_this">Clear all messages?</string>-->
+<!--<string name="The_delete_button_is_clicked">The delete button is clicked</string>-->
+<!--<string name="Add_a_button_was_clicked">Add a button was clicked</string>-->
+<!--<string name="not_delete_myself">Cannot delete myself</string>-->
+<!--<string name="Are_removed">Removing</string>-->
+<!--<string name="confirm_the_members">Move this member to group blacklist?</string>-->
+<!--<string name="Failed_to_get_group_chat_information">Failed to get group information:</string>-->
+<!--<string name="Is_sending_a_request">Sending the request..</string>-->
+<!--<string name="Request_to_join">Apply to join</string>-->
+<!--<string name="send_the_request_is">The request was sent and waiting for owner approval</string>-->
+<!--<string name="Join_the_group_chat">Join the group</string>-->
+<!--<string name="Failed_to_join_the_group_chat">Failed to join the group</string>-->
+<!--<string name="temporary_does_not">Currently the video size greater than 10M is not supported!</string>-->
+<!--<string name="Video_footage">Video record</string>-->
+<!--<string name="User_name_cannot_be_empty">User name cannot be empty!</string>-->
+<!--<string name="Password_cannot_be_empty">Password cannot be empty!</string>-->
+<!--<string name="please_set_the_current">"Please set the current user's nickname \ n to ios offline push not userid but Nick, see comments"</string>-->
+<!--<string name="Is_landing">logining..</string>-->
+<!--<string name="login_failed">Login failed!</string>-->
+<!--<string name="list_is_for">Retrieving the groups and contacts</string>-->
+<!--<string name="login_failure_failed">Logon failure: failed to retrieve contacts or groups</string>-->
+<!--<string name="Login_failed">Login failed:</string>-->
+<!--<string name="receive_the_passthrough">Receive cmd message : action：</string>-->
+<!--<string name="have_you_removed">Have you removed from his buddy list</string>-->
+<!--<string name="can_not_connect_chat_server_connection">Cannot connect to server</string>-->
+<!--<string name="the_current_network">The current network is not available, please check the network Settings</string>-->
+<!--<string name="Invite_you_to_join_a_group_chat"> Invite you to join this group</string>-->
+<!--<string name="Agreed_to_your_group_chat_application">Accepted your group application</string>-->
+<!--<string name="Logoff_notification">Logoff notification</string>-->
+<!--<string name="Remove_the_notification">Remove the notification</string>-->
+<!--<string name="Group_name_cannot_be_empty">Group name cannot be empty</string>-->
+<!--<string name="Is_to_create_a_group_chat">Creating the group</string>-->
+<!--<string name="Failed_to_create_groups">Failed to create groups</string>-->
+<!--<string name="The_video_to_start">The video to start</string>-->
+<!--<string name="Whether_to_send">Are you sure to send?</string>-->
+<!--<string name="Open_the_equipment_failure">Open the equipment failure!</string>-->
+<!--<string name="Confirm_password_cannot_be_empty">Confirm password cannot be empty!</string>-->
+<!--<string name="Two_input_password">Inconsistent password, please enter again!</string>-->
+<!--<string name="Is_the_registered">Registering..</string>-->
+<!--<string name="Registered_successfully">Registered successfully</string>-->
+<!--<string name="network_anomalies">Network is not available, please check the network!</string>-->
+<!--<string name="User_already_exists">User already existed!</string>-->
+<!--<string name="registration_failed_without_permission">Registration failed, without permission!</string>-->
+<!--<string name="Registration_failed">Registration failed:</string>-->
+<!--<string name="Are_logged_out">Logging out</string>-->
+<!--<string name="Download_the_pictures">Download the pictures: 0%</string>-->
+<!--<string name="Download_the_pictures_new">Download the pictures:</string>-->
+<!--<string name="Failed_to_download_file">Failed to download file:</string>-->
+<!--<string name="Version_number_is_wrong">Version number is wrong</string>-->
+<!--<string name="Are_connected_to_each_other">Connecting to peer..</string>-->
+<!--<string name="Is_not_yet_connected_to_the_server">Not connect to server</string>-->
+<!--<string name="have_connected_with">Connected to the peer and waiting for the peer to accept</string>-->
+<!--<string name="In_the_call">In the call..</string>-->
+<!--<string name="The_other_party_refused_to_accept">The call was refused</string>-->
+<!--<string name="Connection_failure">Connection failed!</string>-->
+<!--<string name="The_other_party_is_not_online">The peer is not online now, please try later</string>-->
+<!--<string name="The_other_is_on_the_phone_please">The peer is busy now, please try later</string>-->
+<!--<string name="The_other_is_hang_up">The peer has ended the call</string>-->
+<!--<string name="The_other_party_did_not_answer_new">The peer did not answer</string>-->
+<!--<string name="Into_the_blacklist">Move to the blacklist?</string>-->
+<!--<string name="Have_downloaded">Already downloaded</string>-->
+<!--<string name="Did_not_download">Not yet downloaded</string>-->
+<!--<string name="Has_agreed_to_your_friend_request">Accepted your request</string>-->
+<!--<string name="Request_to_add_you_as_a_friend">You got a friend request</string>-->
+<!--<string name="Apply_to_the_group_of">Apply to join the group</string>-->
+<!--<string name="Has_agreed_to">Accepted</string>-->
+<!--<string name="Has_refused_to">Refused</string>-->
+<!--<string name="Are_agree_with">Accepting</string>-->
+<!--<string name="direct_call">Direct</string>-->
+<!--<string name="relay_call">Relay</string>-->
+<!--<string name="Agree_with_failure">Failed to accept</string>-->
+<!--<string name="Is_download_voice_click_later">Downloading the voice message, click later</string>-->
+<!--<string name="Send_the_following_pictures">Send the following pictures?</string>-->
+<!--<string name="search_new">Search</string>-->
+<!--<string name="phone_number_has_registered">The mobile phone number has been registered, please login directly.</string>-->
+<!--<string name="has_registered">Has Registered</string>-->
+<!--<string name="register_des_one">Registration by mobile phone can help you find more valuable people, expand your circle of professional contacts, registration indicates that you agree</string>-->
+<!--<string name="register_des_two">《Art circle service agreement》</string>-->
+
+<!--<string name="Delete_the_contact">Delete the contact</string>-->
+<!--<string name="Move_into_the_blacklist_new">Move into the blacklist</string>-->
+<!--<string name="Change_the_group_name">Change group name</string>-->
+<!--<string name="dismiss_group">Dismiss group</string>-->
+<!--<string name="add_public_group_chat">Add public group</string>-->
+<!--<string name="gorup_not_found">Can not find this group</string>-->
+<!--<string name="no_more_messages">no more messages</string>-->
+<!--<string name="join_public_group">Join public group</string>-->
+<!--<string name="chatroom_allow_owner_leave">Allow chatroom owner leave</string>-->
+<!--<string name="group_id">Group ID</string>-->
+<!--<string name="move_out_backlist">Remove from blacklist</string>-->
+<!--<string name="input_new_nick_hint">Input a new nick</string>-->
+<!--<string name="search_pubic_group">Search public group</string>-->
+<!--<string name="group_not_existed">The group does not exist</string>-->
+<!--<string name="group_search_failed">Search failed</string>-->
+<!--<string name="nickname_description">Once this nick is set, this nick will be used in push notification (by default this is HuanXin ID ) when the receiver is using the IOS device.</string>-->
+<!--<string name="error_send_invalid_content">The message content is not allowed to be sent!</string>-->
+<!--<string name="error_send_not_in_the_group">You already were not in the group</string>-->
+<!--<string name="refreshing_group_list">Refreshing group list</string>-->
+<!--<string name="failed_to_load_data">Failed to load data, please check network or try again later</string>-->
+<!--<string name="searching">searching</string>-->
+<!--<string name="hanging_up">Hanging up..</string>-->
+<!--<string name="illegal_user_name">Illegal user name</string>-->
+<!--<string name="robot_chat">Robot chat</string>-->
+<!--<string name="title_user_profile">User Profile</string>-->
+<!--<string name="nickname">NickName</string>-->
+<!--<string name="sim_contact">Obtain SIM Contact</string>-->
+<!--<string name="dl_title_upload_photo">Upload Photo</string>-->
+<!--<string name="dl_msg_local_upload">Local Upload</string>-->
+<!--<string name="dl_msg_take_photo">Task Photo</string>-->
+<!--<string name="toast_no_support">No Support!</string>-->
+<!--<string name="setting_nickname">Setting nickname</string>-->
+<!--<string name="dl_ok">OK</string>-->
+<!--<string name="dl_cancel">Cancel</string>-->
+<!--<string name="toast_nick_not_isnull">nick cannot be empty!</string>-->
+<!--<string name="dl_update_nick">update nickname</string>-->
+<!--<string name="dl_update_photo">update photo</string>-->
+<!--<string name="dl_waiting">waiting...</string>-->
+<!--<string name="toast_updatenick_success">update nickname success!</string>-->
+<!--<string name="toast_updatenick_fail">update nickname fail!</string>-->
+<!--<string name="toast_updatephoto_success">update photo success!</string>-->
+<!--<string name="toast_updatephoto_fail">update photo fail!</string>-->
+
+<!--<string name="positive">Ok</string>-->
+<!--<string name="negative">Cancel</string>-->
+<!--<string name="unit_second">s</string>-->
+<!--<string name="retry">Retry</string>-->
+
+<!--&lt;!&ndash;user regist&ndash;&gt;-->
+<!--<string name="improve_mobile_phone_number">请完善手机号</string>-->
+<!--<string name="phone_number">手机号</string>-->
+<!--<string name="hint_input_phone_number">请输入您的注册手机号</string>-->
+<!--<string name="identify_code">验证码</string>-->
+<!--<string name="input_identify_code">请输入验证码</string>-->
+<!--<string name="get_identify_code">获取验证码</string>-->
+<!--<string name="password">密&#160;&#160;&#160;&#160;码</string>-->
+<!--<string name="input_psw">请输入6-20位登录密码</string>-->
+<!--<string name="get_auth_code">验证码</string>-->
+<!--<string name="register_name">用户名</string>-->
+<!--<string name="hint_input_user_name">请输入用户名(字母数字下划线组合)</string>-->
+<!--<string name="tip_regist_success">注册成功</string>-->
+<!--<string name="tip_regist_failed">注册失败</string>-->
+<!--<string name="auth_code_tip_wait">请等待验证码短信...</string>-->
+<!--<string name="tip_wrong_username">用户名只能包含数字、字母、下划线</string>-->
+<!--<string name="tip_wrong_number">手机号码格式有误,请校验手机号码</string>-->
+<!--<string name="auth_code_tip_empty_username">用户名不能为空,请重新输入</string>-->
+<!--<string name="auth_code_tip_empty_number">号码不能为空,请重新输入</string>-->
+<!--<string name="auth_code_tip_empty_password">密码不能为空,请重新输入</string>-->
+<!--<string name="auth_code_tip_password_too_short">密码长度不能小于6位,请重新输入</string>-->
+<!--<string name="auth_code_tip_password_too_long">密码长度不能多于20位,请重新输入</string>-->
+<!--<string name="auth_code_tip_password_not_identical">两次输入密码不一致,请重新输入</string>-->
+<!--<string name="open_new_art_circle">Open new Art Circle~</string>-->
+<!--<string name="seek_truth">Seeking Truth</string>-->
+<!--<string name="real_name_info">Real Name</string>-->
+<!--<string name="choose_career_direction">Choose your career direction</string>-->
+<!--<string name="next_step">Next Step</string>-->
+<!--<string name="person_info">Person Data</string>-->
+<!--<string name="attention_three_major">You can focus on three major</string>-->
+<!--<string name="select_major_max_num">You are the most attention three professional</string>-->
+<!--<string name="select_major_min_num">You are the at least attention three professional</string>-->
+<!--<string name="real_name_cannot_empty">Real Name cannot be empty</string>-->
+<!--<string name="select_major_cannot_empty">Major cannot be empty</string>-->
+<!--<string name="header_img_cannot_empty">The User cannot be empty</string>-->
+<!--<string name="commit_personal_info_successful">Commit Personal information successfully</string>-->
+<!--<string name="commit_personal_info_fail">Commit Personal information failed</string>-->
+
+<!--<string name="export_sim_contact_empty">SIM contact is empty</string>-->
+<!--<string name="export_sim_contact_success">export SIM contact success</string>-->
+<!--<string name="export_sim_contact_fail">export SIM contact fail</string>-->
+<!--<string name="is_export_sim_contact">Whether the export SIM contacts?</string>-->
+<!--<string name="is_export_sim_contact_again">SIM contacts updated, whether or not to export?</string>-->
+<!--<string name="export_sim_contact">export SIM contacts</string>-->
+<!--<string name="sim_invalid">SIM Invalid</string>-->
+<!--<string name="sim_clocked">SIM card is locked or unknown</string>-->
+<!--<string name="friend">friend</string>-->
+<!--<string name="art_circle">Art Circle</string>-->
+<!--<string name="update_contact">Update Contact </string>-->
+<!--<string name="update_contact_to_art_circle">Update the address book art circle</string>-->
+<!--<string name="update_contact_to_art_circle_des">Will bring you more friends, make sure open contacts permissions</string>-->
+<!--<string name="update_now">update now</string>-->
+<!--<string name="update_success">Update success！！！</string>-->
+<!--<string name="update_fail">Update fail！！！</string>-->
+<!--<string name="contact_latest">Your address book is the latest~</string>-->
+<!--<string name="update_ok">OK~</string>-->
+<!--<string name="update_success_des_one">Successfully updated</string>-->
+<!--<string name="update_success_des_two">contact oh, your circle of contacts will expand</string>-->
+<!--<string name="update_success_des_three">times~</string>-->
+<!--<string name="update_fail_des">Please check and make sure that the directory permissions has opened the \ n - universal painter circle - the address book</string>-->
+<!--<string name="contact_latest_des">After the next address book updates, small make up will inform you the first time the oh, mua ~</string>-->
+
+<!--&lt;!&ndash;账号&ndash;&gt;-->
+<!--<string name="account">Me</string>-->
+<!--<string name="my">My</string>-->
+<!--<string name="code">QR Code</string>-->
+<!--<string name="influence">Influence：</string>-->
+<!--<string name="my_art_circle">My Art Circle</string>-->
+<!--<string name="verified_account">Verified account</string>-->
+<!--<string name="fans_list">Fans List</string>-->
+<!--<string name="focus_list">Focus List</string>-->
+
+<!--&lt;!&ndash;用户信息&ndash;&gt;-->
+<!--<string name="load_user_info_failed">Loading user information failure</string>-->
+<!--<string name="mobile">Mobile:</string>-->
+<!--<string name="contact_detail">Contact Detail</string>-->
+<!--<string name="engaged_in_the_field_of">Engaged in the field</string>-->
+<!--<string name="career_direction">Career Direction</string>-->
+<!--<string name="edit">Edit</string>-->
+<!--<string name="give_him_her_label">Give him (her) label</string>-->
+<!--<string name="work_experience">Work Experience</string>-->
+<!--<string name="study_experience">Study Experience</string>-->
+<!--<string name="album_painting">Album Painting</string>-->
+<!--<string name="person_label">Person Label</string>-->
+<!--<string name="more_career_info">More Work Experience&#8230;</string>-->
+<!--<string name="more_study_info">More Study Experience&#8230;</string>-->
+<!--<string name="shrink">Shrink</string>-->
+<!--<string name="camera">Camera</string>-->
+<!--<string name="photo">Photo</string>-->
+<!--<string name="set_head_image">Select Photo</string>-->
+<!--<string name="take_photo">Take a Photo</string>-->
+<!--<string name="select_photo">Select a Photo</string>-->
+<!--<string name="rank">be Number </string>-->
+<!--<string name="position">position</string>-->
+<!--<string name="item">item</string>-->
+<!--<string name="qr_code_add_friend">Qr code to add friends</string>-->
+<!--<string name="generate_qr_code_failed">Generate QR Code failed</string>-->
+<!--<string name="his_dynamic">His dynamic</string>-->
+<!--<string name="add_friends">Add Friend</string>-->
+<!--<string name="focus">Focus</string>-->
+<!--<string name="send_msg">Send Message</string>-->
+<!--<string name="fans">Fans：</string>-->
+<!--<string name="had_focused">have focused</string>-->
+<!--<string name="invite_upload_album">Ask him to upload picture album</string>-->
+<!--<string name="invite_upload_album_success">You have invited him to upload the picture album</string>-->
+<!--<string name="focus_success">Focus Successfully</string>-->
+<!--<string name="focus_fail">Focus Failed</string>-->
+<!--<string name="add_friend_success">Add Friend Successfully</string>-->
+<!--<string name="add_friend_fail">Add Friend Failed</string>-->
+<!--<string name="send_msg_success">Send Message Successfully</string>-->
+<!--<string name="send_msg_fail">Send Message Failed</string>-->
+<!--<string name="user_is_not_exist">User is not exist</string>-->
+<!--<string name="black_list">This user is already your friends (blocked), can be removed from the blacklist list</string>-->
+<!--<string name="edit_info_hint">Please input your release</string>-->
+<!--<string name="second_msg_received_refuse">The other friends set up without a second, please develop other contacts</string>-->
+<!--<string name="second_contacts_with_friend_refuse">The other friends set up not to accept a second message</string>-->
+
+
+<!--&lt;!&ndash;名片信息&ndash;&gt;-->
+<!--<string name="business_card_info">Business Card</string>-->
+<!--<string name="real_name">Real Name：</string>-->
+<!--<string name="sex">Sex：</string>-->
+<!--<string name="career">Career：</string>-->
+<!--<string name="business_card_bg">Business Card Background</string>-->
+<!--<string name="improve_influence_ranking">How to promote influence ranking！</string>-->
+<!--<string name="improve_influence_ranking_title">How to promote influence ranking</string>-->
+<!--<string name="breeze">Breeze</string>-->
+<!--<string name="shu_ya">Shu Ya</string>-->
+<!--<string name="po_mo">Po Mo</string>-->
+<!--<string name="album_select">Album Select</string>-->
+<!--<string name="man">Man</string>-->
+<!--<string name="woman">Womam</string>-->
+
+<!--&lt;!&ndash;职业方向&ndash;&gt;-->
+<!--<string name="career_direction_modify">Career Direction Modify</string>-->
+<!--<string name="load_career_info_success">Load Career Info Successful</string>-->
+<!--<string name="load_career_info_failed">Load Career Info Failed</string>-->
+<!--<string name="edit_career_info_success">Edit Career Info Successful</string>-->
+<!--<string name="edit_career_info_failed">Edit Career Info Failed</string>-->
+
+<!--&lt;!&ndash; connection circle &ndash;&gt;-->
+<!--<string name="connection_circle">connection circle</string>-->
+<!--<string name="get_to_know_artist">Get to know artist</string>-->
+<!--<string name="get_to_know_gallery">Get to know gallery</string>-->
+<!--<string name="get_to_know_art_business">Get to know art business</string>-->
+<!--<string name="once_connection_manager">Once connection manager</string>-->
+<!--<string name="find_second_connection">Find second connection</string>-->
+<!--<string name="connection_distribute">Connection distribute</string>-->
+<!--<string name="attention_artist">Attention artist</string>-->
+<!--<string name="attention_artist_count">99+</string>-->
+<!--<string name="invited_address_list">Invited address list</string>-->
+<!--<string name="invited_friend">invited_friend</string>-->
+<!--<string name="second_connection_friend">Second connection</string>-->
+<!--<string name="invited_all_friend">invited all friend</string>-->
+<!--<string name="invited">invited</string>-->
+
+<!--<item name="tag_user_id" type="id"/>-->
+<!--<item name="tag_user_mobile" type="id"/>-->
+<!--<item name="tag_user_name" type="id"/>-->
+<!--<item name="tag_id" type="id"/>-->
+<!--<item name="tag_user" type="id"/>-->
+<!--<item name="tag_is_fans" type="id"/>-->
+<!--<item name="tag_user_portrait" type="id"/>-->
+<!--<item name="tag_person_label_select" type="id"/>-->
+<!--<item name="tag_person_label_default" type="id"/>-->
+
+
+<!--<string name="invited_friend_directly">Invited friend directly</string>-->
+<!--<string name="invited_success">Invited success</string>-->
+<!--<string name="invited_failed">Invited failed</string>-->
+<!--<string name="already_attention">Already attention</string>-->
+<!--<string name="attention">Attention</string>-->
+<!--<string name="attention_success">Attention success</string>-->
+<!--<string name="attention_failed">Attention failed</string>-->
+<!--<string name="telephone">电话：</string>-->
+
+
+<!--<string name="add_career_experience_success">Add Career Info Successful</string>-->
+<!--<string name="add_career_experience_failed">Add Career Info Failed</string>-->
+
+<!--&lt;!&ndash;任职经历&ndash;&gt;-->
+<!--<string name="experience_edit">Experience Modify</string>-->
+<!--<string name="add_experience">Add Experience</string>-->
+<!--<string name="load_work_experience_success">Load Work Experience Successful</string>-->
+<!--<string name="load_work_experience_failed">Load Work Experience Failed</string>-->
+<!--<string name="start_time_cannot_empty">The start time cannot be empty</string>-->
+<!--<string name="location_cannot_empty">The location cannot be empty</string>-->
+<!--<string name="position_cannot_empty">The position cannot be empty</string>-->
+<!--<string name="edit_work_experience_success">Edit Work Experience Successful</string>-->
+<!--<string name="edit_work_experience_failed">Edit Work Experience Failed</string>-->
+<!--<string name="add_work_experience_success">Add Work Experience Successful</string>-->
+<!--<string name="add_work_experience_failed">Add Work Experience Failed</string>-->
+<!--<string name="delete_work_experience_success">Delete Work Experience Successful</string>-->
+<!--<string name="delete_work_experience_failed">Delete Work Experience Failed</string>-->
+<!--<string name="et_work_experience">Experience as modified</string>-->
+<!--<string name="add_work_experience">Experience as add</string>-->
+<!--<string name="et_work_school">Work Experience：</string>-->
+<!--<string name="et_work_position">Professional：</string>-->
+<!--<string name="et_work_time">Time：</string>-->
+<!--<string name="et_work_des">Description：</string>-->
+<!--<string name="colon">:</string>-->
+<!--<string name="select_time">Please select a time</string>-->
+<!--<string name="so_far">So far</string>-->
+<!--<string name="sure_you_delete">Sure you want to delete?</string>-->
+
+<!--&lt;!&ndash;求学经历&ndash;&gt;-->
+<!--<string name="load_study_experience_success">Load Study Experience Successful</string>-->
+<!--<string name="load_study_experience_failed">Load Study Experience Failed</string>-->
+<!--<string name="major_cannot_empty">The major cannot be empty</string>-->
+<!--<string name="school_cannot_empty">The school cannot be empty</string>-->
+<!--<string name="academic_cannot_empty">The academic cannot be empty</string>-->
+<!--<string name="edit_study_experience_success">Edit Study Experience Successful</string>-->
+<!--<string name="edit_study_experience_failed">Edit Study Experience Failed</string>-->
+<!--<string name="add_study_experience_success">Add Study Experience Successful</string>-->
+<!--<string name="add_study_experience_failed">Add Study Experience Failed</string>-->
+<!--<string name="delete_study_experience_success">Delete Study Experience Successful</string>-->
+<!--<string name="delete_study_experience_failed">Delete Study Experience Failed</string>-->
+<!--<string name="et_study_experience">Education Experience as modified</string>-->
+<!--<string name="add_study_experience">Education Experience as add</string>-->
+<!--<string name="et_study_school">School：</string>-->
+<!--<string name="et_study_position">Major：</string>-->
+<!--<string name="et_study_education">Education：</string>-->
+<!--<string name="choose_major">Choose your major</string>-->
+<!--<string name="choose_academic">Choose your academic</string>-->
+<!--<string name="submit">Submit</string>-->
+<!--<string name="choose_major_from_list">Choose your major from the following list</string>-->
+<!--<string name="choose_academic_from_list">From the following list, select your degree</string>-->
+<!--<string name="stime_not_greater_than_etime">Start time is not greater than or equal to the endof time</string>-->
+<!--<string name="etime_not_greater_than_current_time">End time is not greater than end time now</string>-->
+<!--<string name="stime_not_greater_than_current_time">Start time is not greater than end time now</string>-->
+<!--<string name="stime_not_so_for">Start time is not so far</string>-->
+
+<!--&lt;!&ndash;相册管理&ndash;&gt;-->
+<!--<string name="album_management">Album List</string>-->
+<!--<string name="load_album_success">Load Album successful</string>-->
+<!--<string name="load_album_fail">Load Album failed</string>-->
+<!--<string name="load_failed">Loading failed,please check networking setting</string>-->
+<!--<string name="refresh_failed">Refreshing failed,please check networking setting</string>-->
+<!--<string name="new_album">The New Album</string>-->
+<!--<string name="no_album_des">You have not add any brochures, add one</string>-->
+<!--<string name="add_album_des">Add Album helps to let others know you faster</string>-->
+<!--<string name="invite_check_album_des">Tell him, do you want to take a look at his pictures</string>-->
+<!--<string name="invite_add_album_des">He (she) have not add any picture album, let he add a ~</string>-->
+<!--<string name="picture_album_name">Picture album name:</string>-->
+<!--<string name="artist_note">About the Artist:</string>-->
+<!--<string name="album_name_limit">Name Up to ten characters</string>-->
+<!--<string name="artist_note_des">Say something bai ~, convenient for more people to enjoy buying your paintings</string>-->
+<!--<string name="album_name_is_not_empty">The album name cannot be empty</string>-->
+<!--<string name="create_album_success">Create photo albums success</string>-->
+<!--<string name="create_album_fail">Create photo albums failed</string>-->
+<!--<string name="upload">Upload</string>-->
+<!--<string name="start_create">Start Create</string>-->
+<!--<string name="add_album">Add a work</string>-->
+<!--<string name="add_album_note">No works of the book we will not be reserved for you, please kindly understand</string>-->
+<!--<string name="start_add">Start Add</string>-->
+<!--<string name="add_picture">Add Picture</string>-->
+<!--<string name="upload_album_success">Upload Album Success</string>-->
+<!--<string name="upload_album_fail">Upload Album Failed</string>-->
+<!--<string name="upload_album">Upload Album</string>-->
+<!--<string name="cover">Cover</string>-->
+<!--<string name="edit_album">Edit Album</string>-->
+<!--<string name="delete_album">Delete Album</string>-->
+<!--<string name="share_album">Share</string>-->
+<!--<string name="update_cover">Update Cover：</string>-->
+<!--<string name="edit_cover">Edit Cover</string>-->
+<!--<string name="edit_album_success">Edit Album Success</string>-->
+<!--<string name="edit_album_fail">Edit Album Failed</string>-->
+<!--<string name="edit_cover_success">Edit Cover Success</string>-->
+<!--<string name="edit_cover_fail">Edit Cover Failed</string>-->
+<!--<string name="delete_album_success">Delete Album Success</string>-->
+<!--<string name="delete_album_fail">Delete Album Failed</string>-->
+<!--<string name="album_detail">Album Detail</string>-->
+<!--<string name="album_preview">Album Preview</string>-->
+<!--<string name="load_album_detail_success">Load album detail successfully</string>-->
+<!--<string name="load_album_detail_fail">Load album detail failed</string>-->
+<!--<string name="album_is_not_empty">Album is not empty</string>-->
+<!--<string name="content_not_empty">Content not empty</string>-->
+<!--<string name="content_not_more_than_max_size">Content is not more than max 140 size</string>-->
+<!--<string name="map_storage_is_empty">There is no picture gallery</string>-->
+
+<!--&lt;!&ndash;个人标签&ndash;&gt;-->
+<!--<string name="add_custom">Add a custom</string>-->
+<!--<string name="add_custom_max_count">Add up to 20</string>-->
+<!--<string name="load_label_success">Load label successful</string>-->
+<!--<string name="load_label_failed">Load label failed</string>-->
+<!--<string name="load_person_label_success">Load person label successful</string>-->
+<!--<string name="load_person_label_failed">Load person label failed</string>-->
+<!--<string name="add_label_success">Add label successful</string>-->
+<!--<string name="add_label_failed">Add label Failed</string>-->
+<!--<string name="delete_label_success">Delete label success</string>-->
+<!--<string name="delete_label_failed">Delete label failed</string>-->
+<!--<string name="my_no_label_des_one">You do not have add any personal tags,</string>-->
+<!--<string name="my_no_label_des_two">Add tags helps to let others know you faster~</string>-->
+<!--<string name="you_no_label_des_one">He did not add any personal tags,</string>-->
+<!--<string name="you_no_label_des_two">Come and help him labeling~</string>-->
+<!--<string name="input_person_label">Please enter your tags</string>-->
+<!--<string name="name_can_ont_empty">Person Label can not be empty</string>-->
+<!--<string name="label_can_ont_empty">Person Label can not be empty</string>-->
+<!--<string name="label_has_existence">The label has been in existence</string>-->
+
+<!--&lt;!&ndash;名片信息&ndash;&gt;-->
+<!--<string name="load_business__card_info_success">Load Business Card  Bg successful</string>-->
+<!--<string name="load_business__card_info_failed">Load Business Card  Bg failed</string>-->
+<!--<string name="edit_business__card_info_success">Edit Business Card  Bge Successful</string>-->
+<!--<string name="edit_business__card_info_failed">Edit Business Card  Bg Failed</string>-->
+<!--<string name="delete_card_bg_success">Delete Business card background success</string>-->
+<!--<string name="delete_card_bg_failed">Delete Business card background failed</string>-->
+
+<!--&lt;!&ndash;影响力排行&ndash;&gt;-->
+<!--<string name="influence_rank">Influence Ranking</string>-->
+<!--<string name="load_influence_rank_success">Load Influence Ranking successful</string>-->
+<!--<string name="load_influence_rank_failed">Load Influence Ranking failed</string>-->
+<!--<string name="my_influence_rank">The first of your friends in</string>-->
+
+<!--&lt;!&ndash;画家圈&ndash;&gt;-->
+<!--<string name="painter_circle">My Painter Circle</string>-->
+<!--<string name="send_release_dynamic">I released the real-name dynamic</string>-->
+<!--<string name="participate_release_dynamic">I participate in real-name dynamic</string>-->
+<!--<string name="send_anonymous_dynamic">I released the anonymous dynamic</string>-->
+<!--<string name="participate_anonymous_dynamic">I participate in anonymous dynamic</string>-->
+<!--<string name="get_send_release_dynamic_fail">Get I released the real-name dynamic failed</string>-->
+<!--<string name="get_participate_release_dynamic_fail">Get I participate in real-name dynamic faile</string>-->
+
+<!--&lt;!&ndash;认证&ndash;&gt;-->
+<!--<string name="invite_certification">Certification to invite</string>-->
+<!--<string name="invite">Invite</string>-->
+<!--<string name="have_invited">Have Invited</string>-->
+<!--<string name="why_certification_invite">Why do you want to certification</string>-->
+<!--<string name="all_invite">All Invite</string>-->
+<!--<string name="load_certification_invite_success">Load Certification invite successful</string>-->
+<!--<string name="load_certification_invite_failed">Load Certification invite failed</string>-->
+<!--<string name="invite_success">Invite successful</string>-->
+<!--<string name="invite_failed">Invite failed</string>-->
+<!--<string name="why_to_certification">Why do you want to certification</string>-->
+<!--<string name="why_des">1:According to the influence to push on a regular basis \n \n2:Hair, the more the greater the influence \n \n3:Hair, the more the greater the amount of attention together\n\n</string>-->
+
+<!--&lt;!&ndash;focus list&ndash;&gt;-->
+<!--<string name="unfocus">Unfocus</string>-->
+<!--<string name="load_focus_list_success">Load Focus List successfully</string>-->
+<!--<string name="load_focus_list_fail">Load Focus List Failed</string>-->
+<!--<string name="unfocus_success">UnFocus Successfully</string>-->
+<!--<string name="unfocus_fail">UnFocus Failed</string>-->
+
+<!--&lt;!&ndash;粉丝列表&ndash;&gt;-->
+<!--<string name="more_fans">For more fans kept</string>-->
+<!--<string name="load_fans_list_success">Load Fans List successfully</string>-->
+<!--<string name="load_fans_list_fail">Load Fans List Failed</string>-->
+<!--<string name="secret">secret</string>-->
+<!--<string name="for_fans_kept_secret">For fans kept secret</string>-->
+<!--<string name="company_name">北京今起文化科技有限公司\n\n2015年07月30号</string>-->
+
+<!--&lt;!&ndash;setting&ndash;&gt;-->
+<!--<string name="account_info">Account information</string>-->
+<!--<string name="focus_areas">Focus Areas</string>-->
+<!--<string name="notification">Notification</string>-->
+<!--<string name="second_msg_received">A second message received</string>-->
+<!--<string name="second_contacts_with_friend">A second contacts with friends</string>-->
+<!--<string name="give_us_high_praise">Give us a high praise</string>-->
+<!--<string name="about_us">About Us</string>-->
+<!--<string name="suggestion">Suggestion</string>-->
+<!--<string name="privacy_legal_documents">Privacy legal documents</string>-->
+<!--<string name="edit_password">Edit Password</string>-->
+<!--<string name="privacy_strategy">Privacy Strategy</string>-->
+
+<!--&lt;!&ndash;modify password&ndash;&gt;-->
+<!--<string name="modify_password">Modify Password</string>-->
+<!--<string name="cancel_modify_password">Cancel modify password?</string>-->
+<!--<string name="continue_modify">Continue to modify</string>-->
+<!--<string name="confirm_cancel">Confirm to cancel</string>-->
+<!--<string name="enter_original_password">Enter original password again</string>-->
+<!--<string name="enter_new_password">Please enter the 6-20 new password</string>-->
+<!--<string name="enter_new_password_again">Please enter a new password again</string>-->
+<!--<string name="modify_password_success">Password update successful, please log in again!</string>-->
+<!--<string name="modify_password_fail">Modify password Failed</string>-->
+<!--<string name="you_have_not_logged_in">You have not logged in</string>-->
+<!--<string name="fill_in_original_password">Please fill in the original password</string>-->
+<!--<string name="new_password_between">The new password length length need to be between 6 and 20</string>-->
+<!--<string name="two_input_password_different">Two input password, please enter again</string>-->
+
+<!--&lt;!&ndash;modify phone&ndash;&gt;-->
+<!--<string name="modify_phone_number">Modify Phone Number</string>-->
+<!--<string name="auth_code_invalid">Auth Code Invalid</string>-->
+<!--<string name="checking_phone_number">Is checking...</string>-->
+<!--<string name="wrong_number_or_code">Wrong number or code</string>-->
+<!--<string name="check_phone_failed">手机校验失败</string>-->
+<!--<string name="check_phone_success">手机校验成功</string>-->
+<!--<string name="dialog_title_commit_info">提交信息</string>-->
+<!--<string name="dialog_msg_not_check_phone">手机验证未通过，确定提交?</string>-->
+<!--<string name="cancel_modify_auth_code">取消手机验证?</string>-->
+
+<!--&lt;!&ndash;logout&ndash;&gt;-->
+<!--<string name="sure_logout">Sure logout</string>-->
+
+<!--&lt;!&ndash;about us&ndash;&gt;-->
+<!--<string name="contact_us_qq">QQ: 145268901</string>-->
+<!--<string name="contact_us_wx">WeChat: sjjb2006</string>-->
+<!--<string name="contact_us_sina">微博: 手机鉴宝-博宝</string>-->
+<!--<string name="contact_us_tel">Telephone: 010-68703488</string>-->
+
+<!--&lt;!&ndash;Complaint and Advice&ndash;&gt;-->
+<!--<string name="complaint_advice">Complaint and Advice</string>-->
+<!--<string name="input">please input......</string>-->
+<!--<string name="load_art_circle_fail">Load Art Circle information failed</string>-->
+<!--<string name="feedback_content_empty">FeedBack Content is empty</string>-->
+
+<!--&lt;!&ndash;invite friend&ndash;&gt;-->
+<!--<string name="invite_friend">Invite Friend</string>-->
+<!--<string name="direct_invitation">Direct Invitation</string>-->
+<!--<string name="load_info_success">Load Information successfully</string>-->
+<!--<string name="load_info_fail">Load Information Failed</string>-->
+<!--<string name="invite_friend_success">Invite Friend Successfully</string>-->
+<!--<string name="invite_friend_fail">Invite Friend Failed</string>-->
+
+<!--<string name="finished_choice_photo">Finished choice photo</string>-->
+
+<!--<item name="tag_real_name" type="id"/>-->
+<!--<string name="recommend_artist">Recommend artist</string>-->
+<!--<string name="invited_friends_play">Invited friends play</string>-->
+<!--<string name="jump">Jump</string>-->
+<!--<string name="invited_and_begin">Invited and Begin</string>-->
+
+
+<!--<string name="art_circle_service_agreement">Art Circle Service Agreement</string>-->
+<!--<string name="small_make_up_remind_you">Small make up remind you！！！</string>-->
+<!--<string name="perfect_contact_detail_des">Perfect information to enhance your influence ranking~ \n Can let more people know you well。</string>-->
+<!--<string name="perfect_data">Perfect Data</string>-->
+
+<!--<string name="logoff_notification">logoff notification</string>-->
+<!--<string name="logoff_notification_note_one">Your account on</string>-->
+<!--<string name="logoff_notification_note_two">Login in another device, such as not you personally operation, the password may have been leaked,-->
+<!--advice immediately change the password.</string>-->
+<!--<string name="relogin">ReLogin</string>-->
+<!--<string name="relogin_success">ReLogin Successfully</string>-->
+<!--<string name="relogin_failed">ReLogin Failed</string>-->
+
+<!--<string name="user_not_exist">User not Exist</string>-->
+
+<!--<string name="not_login">You have not login</string>-->
+<!--<string name="confirm_login">If we need to log in</string>-->
+
+<!--<string name="go_for_login">Go for Login</string>-->
+
+<!--<string name="press_back_again">Press Back Again</string>-->
+
+<!--<string name="setting_success">Setting successful</string>-->
+<!--<string name="setting_failed">Setting failed</string>-->
+
+<!--<string name="temporary_session">(Temporary session)</string>-->
+
+<!--<string name="official_assistant">The official assistant</string>-->
+<!--<string name="system_message">System Messages</string>-->
+
+<!--<string name="no_call_permission">No Call Permisssion</string>-->
+
+<!--<string name="hint_input_login_phone_number">Please input your phone number</string>-->
+<!--<string name="hint_input_login_password">Please input your password</string>-->
+<!--<string name="dynamic_action_comments">comment</string>-->
+<!--<string name="check_all_content">Check all content</string>-->
+
+<!--<string name="publish_dynamic">Publish Dynamic</string>-->
+<!--<string name="publish">Publish</string>-->
+
+<!--<string name="must_flag">*</string>-->
+<!--<string name="attention_finished">Attention finished</string>-->
+
+<!--<string name="enter_has_exceeded_the_limit">Content must not exceed 200 words!</string>-->
+
+<!--<string name="tab_home_page">Home Page</string>-->
+<!--<string name="tab_message">Message</string>-->
+<!--<string name="tab_art_circle">Art Circle</string>-->
+<!--<string name="tab_account">Account</string>-->
+
+<!--<string name="official_assistant_helper">The official assistant notice</string>-->
+
+<!--<string name="is_uploading">Are Uploading</string>-->
+
+<!--<string name="title_dynamic_detail">Dynamic Detail</string>-->
+
+<!--<string name="accept_failed">Accept fialed!</string>-->
+
+<!--<string name="no_sys_msgs">no system messages</string>-->
+
+<!--<string name="no_data">no datas</string>-->
+<!--</resources>-->
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<resources>
+
+    <string name="app_name">画家圈</string>
+    <string name="app_desc">一个专注艺术家的圈儿</string>
+    <string name="text_ack_msg">已读</string>
+    <string name="text_delivered_msg">送达</string>
+    <string name="back">返回</string>
+    <string name="save">保 存</string>
+    <string name="button_pushtotalk">按住说话</string>
+    <string name="button_send">发送</string>
+    <string name="attach_smile">表情</string>
+    <string name="attach_picture">图片</string>
+    <string name="attach_take_pic">拍照</string>
+    <string name="attach_location">位置</string>
+    <string name="attach_video">视频</string>
+    <string name="attach_file">文件</string>
+    <string name="attach_voice_call">语音电话</string>
+    <string name="attach_video_call">视频通话</string>
+    <string name="user_card">分享名片</string>
+    <string name="share_album_msg">分享画册</string>
+    <string name="user_album">画册</string>
+    <string name="move_up_to_cancel">手指上滑，取消发送</string>
+    <string name="release_to_cancel">松开手指，取消发送</string>
+    <string name="send_fail">发送消息失败,</string>
+    <string name="delete_message">删除消息</string>
+    <string name="delete_conversation_messages">删除会话和消息</string>
+    <string name="delete_conversation">删除会话</string>
+    <string name="copy_message">复制消息</string>
+    <string name="delete_voice">删除语音</string>
+    <string name="delete_video">删除视频</string>
+    <string name="delete">删除</string>
+    <string name="resend">重发</string>
+    <string name="confirm_resend">确认重发该信息？</string>
+    <string name="connect_failuer_toast">请检查网络或稍候重试</string>
+    <string name="network_unavailable">网络连接不可用，请检查网络</string>
+    <string name="copy">复制</string>
+    <string name="forward">转发</string>
+    <string name="button_logout">退出登录</string>
+    <string name="button_uploadlog">上传运行日志</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="prompt">提 示</string>
+    <string name="clear_records">清空记录</string>
+    <string name="clear_all_records">是否清空所有聊天记录？</string>
+    <string name="location_recv">[%1$s的位置]</string>
+    <string name="location_message">位置信息</string>
+    <string name="recording_video">录制视频</string>
+    <string name="location_prefix">[我的位置]</string>
+    <string name="picture">[图片]</string>
+    <string name="video">[视频]</string>
+    <string name="file">[文件]</string>
+    <string name="voice_call">[语音通话]</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_save">保存</string>
+    <string name="button_search">查找</string>
+    <string name="button_add">添加</string>
+    <string name="search_header">搜</string>
+    <string name="network_is_not_available">网络不可用</string>
+    <string name="recoding_fail">录音失败，请重试！</string>
+    <string name="select_contacts">选择联系人</string>
+    <!--<string name="confirm_forward_to">确定转发到：%1$s ?</string>-->
+    <string name="confirm_forward_to">确定转发到：</string>
+    <string name="logout">退出登录</string>
+    <string name="logout_hint">退出后不会删除任何历史数据，下次登录依然可以使用本账号</string>
+    <string name="exit_group_hint">退出后，将不再接收此群聊信息</string>
+    <string name="dissolution_group_hint">退出后，此群将被解散</string>
+    <string name="exit_group">退出</string>
+    <string name="connect_conflict">同一帐号已在其他设备登录</string>
+    <string name="em_user_remove">此用户已被移除</string>
+    <string name="set">设置</string>
+    <string name="notify">新消息提醒</string>
+    <string name="newnotify">接收新消息通知</string>
+    <string name="voice">声音</string>
+    <string name="shake">震动</string>
+    <string name="chatset">聊天设置</string>
+    <string name="yangshengqi">使用扬声器播放语音</string>
+    <string name="book_black">通讯录黑名单</string>
+    <string name="session">会话</string>
+    <string name="address_book">通讯录</string>
+    <string name="dynamics">动态</string>
+    <string name="setting">设置</string>
+    <string name="now_refresh_list">正在刷新联系人</string>
+    <string name="application_and_notify">申请与通知</string>
+    <string name="save_new_nickname">保存</string>
+    <string name="nickname_description">设置此昵称以后，在与iOS客户端demo聊天过程中，iOS一侧会显示此昵称而不是环信ID，如果对方使用安卓客户端则此设置不生效</string>
+    <string name="group_chat">群聊</string>
+    <string name="chat_room">聊天室</string>
+    <string name="add_friend">添加好友</string>
+    <string name="search">搜索</string>
+    <string name="black_item">黑名单</string>
+    <string name="diagnose">诊断</string>
+    <string name="push_nick">iOS离线推送昵称</string>
+    <string name="Current_version">当前版本</string>
+    <string name="Not_Set">未设置</string>
+    <string name="Upload_the_log">上传日志中</string>
+    <string name="The_new_group_chat">新建群组</string>
+    <string name="add_public_group_chat">添加公开群</string>
+    <string name="add_public_chat_room">添加聊天室</string>
+    <string name="group_name">群聊名称</string>
+    <string name="Group_chat_profile">群聊简介</string>
+    <string name="Whether_the_public">是否公开</string>
+    <string name="Open_group_members_invited">开放群成员邀请</string>
+    <string name="Open_group_chat">公开的群聊</string>
+    <string name="blacklist">黑名单列表</string>
+    <string name="Empty_the_chat_record">清空聊天记录</string>
+    <string name="Shielding_of_the_message">屏蔽群消息</string>
+    <string name="dismiss_group">解散群聊</string>
+    <string name="Select_the_contact">选择联系人</string>
+    <string name="Group_chat_information">群聊资料</string>
+    <string name="Group_of_Lord">群主</string>
+    <string name="Introduction">简介</string>
+    <string name="To_join_the_chat">加入群聊</string>
+    <string name="login">登录</string>
+    <string name="user_name">用户名</string>
+    <string name="register">注册</string>
+    <string name="confirmpassword">确认密码</string>
+    <string name="downwaiting">正在下载文件请稍后</string>
+    <string name="mute">静音</string>
+    <string name="Hands_free">免提</string>
+    <string name="hang_up">挂断</string>
+    <string name="answer">接听</string>
+    <string name="unable_to_connect">不能连接到服务器</string>
+    <string name="newchat">新建聊天</string>
+    <string name="agree">同 意</string>
+    <string name="Group_chat">群聊:</string>
+    <string name="not_download">未下载:</string>
+    <string name="Please_enter_a_username">请输入用户名</string>
+    <string name="is_down_please_wait">正在下载视频请稍候</string>
+    <string name="Exit_the_group_chat">退出群聊</string>
+
+    <string name="not_add_myself">不能添加自己</string>
+    <string name="This_user_is_already_your_friend">此用户已是你的好友</string>
+    <string name="Add_a_friend">加个好友呗</string>
+    <string name="send_successful">发送请求成功,等待对方验证</string>
+    <string name="Request_add_buddy_failure">请求添加好友失败:</string>
+    <string name="Network_error">网络出错</string>
+    <string name="Making_sure_your_location">正在确定你的位置...</string>
+    <string name="please_check">key 验证出错! 请在 AndroidManifest.xml 文件中检查 key 设置</string>
+    <string name="expression">[表情]</string>
+    <string name="Removed_from_the_failure">移出失败</string>
+    <string name="be_removing">正在移出...</string>
+    <string name="call_duration">通话时长</string>
+    <string name="Refused">已拒绝</string>
+    <string name="The_other_party_has_refused_to">对方已拒绝</string>
+    <string name="The_other_is_not_online">对方不在线</string>
+    <string name="The_other_is_on_the_phone">对方正在通话中</string>
+    <string name="The_other_party_did_not_answer">对方未接听</string>
+    <string name="did_not_answer">未接听</string>
+    <string name="Has_been_cancelled">已取消</string>
+    <string name="unable_to_get_loaction">无法获取到您的位置信息!</string>
+    <string name="not_connect_to_server">尚未连接至服务器，请稍后重试</string>
+    <string name="sd_card_does_not_exist">SD卡不存在，不能拍照</string>
+    <string name="cant_find_pictures">找不到图片</string>
+    <string name="File_does_not_exist">文件不存在</string>
+    <string name="The_file_is_not_greater_than_10_m">文件不能大于10M</string>
+    <string name="Whether_to_empty_all_chats">是否清空所有聊天记录</string>
+    <string name="Send_voice_need_sdcard_support">发送语音需要sdcard支持</string>
+    <string name="Recording_without_permission">无录音权限</string>
+    <string name="The_recording_time_is_too_short">录音时间太短</string>
+    <string name="send_failure_please">发送失败，请检测服务器是否连接</string>
+    <string name="Move_into_blacklist_success">移入黑名单成功</string>
+    <string name="Move_into_blacklist_failure">移入黑名单失败</string>
+    <string name="you_are_group">你被群创建者从此群中移除</string>
+    <string name="the_current_group">当前群聊已被群创建者解散</string>
+    <string name="Cant_chat_with_yourself">不能和自己聊天</string>
+    <string name="deleting">正在删除...</string>
+    <string name="delete_failed">删除失败:</string>
+    <string name="Is_moved_into_blacklist">正在移入黑名单...</string>
+    <string name="Log_uploaded_successfully">日志上传成功</string>
+    <string name="Log_Upload_failed">log上传失败</string>
+    <string name="get_failed_please_check">获取失败,请检查网络或稍后再试</string>
+    <string name="people">人)</string>
+    <string name="being_added">正在添加...</string>
+    <string name="is_quit_the_group_chat">正在退出群聊...</string>
+    <string name="chatting_is_dissolution">正在解散群聊...</string>
+    <string name="are_empty_group_of_news">正在清空群消息...</string>
+    <string name="is_modify_the_group_name">正在修改群名称...</string>
+    <string name="Modify_the_group_name_successful">修改群名称成功</string>
+    <string name="change_the_group_name_failed_please">改变群名称失败，请检查网络或稍后重试</string>
+    <string name="Are_moving_to_blacklist">正在移入至黑名单</string>
+    <string name="failed_to_move_into">移入黑名单失败,请检查网络或稍后重试</string>
+    <string name="Exit_the_group_chat_failure">退出群聊失败:</string>
+    <string name="Dissolve_group_chat_tofail">解散群聊失败:</string>
+    <string name="Add_group_members_fail">添加群成员失败:</string>
+    <string name="Is_unblock">正在解除屏蔽...</string>
+    <string name="remove_group_of">解除群屏蔽失败，请检查网络或稍后重试</string>
+    <string name="group_is_blocked">正在屏蔽群组...</string>
+    <string name="group_of_shielding">群屏蔽失败，请检查网络或稍后重试</string>
+    <string name="sure_to_empty_this">确定清空此群的聊天记录吗？</string>
+    <string name="The_delete_button_is_clicked">删除按钮被点击</string>
+    <string name="Add_a_button_was_clicked">添加按钮被点击</string>
+    <string name="not_delete_myself">不能删除自己</string>
+    <string name="Are_removed">正在移除...</string>
+    <string name="confirm_the_members">确认将此成员加入至此群黑名单?</string>
+    <string name="Failed_to_get_group_chat_information">获取群聊信息失败:</string>
+    <string name="Is_sending_a_request">正在发送请求...</string>
+    <string name="Request_to_join">请求加入</string>
+    <string name="send_the_request_is">发送请求成功，等待群主同意</string>
+    <string name="Join_the_group_chat">加入群聊成功</string>
+    <string name="Failed_to_join_the_group_chat">加入群聊失败:</string>
+    <string name="temporary_does_not">暂不支持大于10M的视频！</string>
+    <string name="Video_footage">拍摄录像</string>
+    <string name="User_name_cannot_be_empty">用户名不能为空！</string>
+    <string name="Password_cannot_be_empty">密码不能为空！</string>
+    <string name="please_set_the_current">设置当前用户的昵称\n用于ios离线推送时显示用户昵称</string>
+    <string name="Is_landing">正在登录...</string>
+    <string name="login_failed">登陆失败</string>
+    <string name="list_is_for">将在后台获取好友和群聊列表...</string>
+    <string name="login_failure_failed">登录失败: 获取好友或群聊失败</string>
+    <string name="Login_failed">登录失败:</string>
+    <string name="receive_the_passthrough">收到透传：action：</string>
+    <string name="have_you_removed">已把你从他好友列表里移除</string>
+    <string name="can_not_connect_chat_server_connection">连接不到聊天服务器</string>
+    <string name="the_current_network">当前网络不可用，请检查网络设置</string>
+    <string name="Invite_you_to_join_a_group_chat">邀请你加入了群聊</string>
+    <string name="Agreed_to_your_group_chat_application">同意了你的群聊申请</string>
+    <string name="Logoff_notification">下线通知</string>
+    <string name="Remove_the_notification">移除通知</string>
+    <string name="Group_name_cannot_be_empty">群组名称不能为空</string>
+    <string name="Is_to_create_a_group_chat">正在创建群聊...</string>
+    <string name="Failed_to_create_groups">创建群组失败:</string>
+    <string name="The_video_to_start">录像开始</string>
+    <string name="Whether_to_send">是否发送？</string>
+    <string name="Open_the_equipment_failure">打开设备失败!</string>
+    <string name="Confirm_password_cannot_be_empty">确认密码不能为空!</string>
+    <string name="Two_input_password">两次输入的密码不一致，请重新输入!</string>
+    <string name="Is_the_registered">正在注册...</string>
+    <string name="is_thi_load">正在加载</string>
+    <string name="Registered_successfully">注册成功</string>
+    <string name="network_anomalies">网络异常，请检查网络！</string>
+    <string name="User_already_exists">用户已存在！</string>
+    <string name="registration_failed_without_permission">注册失败，无权限！</string>
+    <string name="Registration_failed">注册失败:</string>
+    <string name="Are_logged_out">正在退出登录..</string>
+    <string name="Download_the_pictures">下载图片: 0%</string>
+    <string name="Download_the_pictures_new">下载图片:</string>
+    <string name="Failed_to_download_file">下载文件失败:</string>
+    <string name="Version_number_is_wrong">版本号错误</string>
+    <string name="Are_connected_to_each_other">正在连接对方...</string>
+    <string name="Is_not_yet_connected_to_the_server">尚未连接至服务器</string>
+    <string name="have_connected_with">已经和对方建立连接，等待对方接受...</string>
+    <string name="In_the_call">通话中...</string>
+    <string name="The_other_party_refused_to_accept">对方拒绝接受！...</string>
+    <string name="Connection_failure">连接建立失败！...</string>
+    <string name="The_other_party_is_not_online">对方不在线，请稍后再拨...</string>
+    <string name="The_other_is_on_the_phone_please">对方正在通话中，请稍后再拨</string>
+    <string name="The_other_is_hang_up">对方已经挂断</string>
+    <string name="The_other_party_did_not_answer_new">对方未接听</string>
+    <string name="Into_the_blacklist">移入到黑名单？</string>
+    <string name="Have_downloaded">已下载</string>
+    <string name="Did_not_download">未下载</string>
+    <string name="Has_agreed_to_your_friend_request">已同意你的好友请求</string>
+    <string name="Request_to_add_you_as_a_friend">请求加你为好友</string>
+    <string name="Apply_to_the_group_of">申请加入群：</string>
+    <string name="Has_agreed_to">已同意对方的请求</string>
+    <string name="Has_refused_to">已拒绝对方的请求</string>
+    <string name="Are_agree_with">正在同意...</string>
+    <string name="direct_call">Direct</string>
+    <string name="relay_call">Relay</string>
+    <string name="Agree_with_failure">同意失败:</string>
+    <string name="Is_download_voice_click_later">正在下载语音，稍后点击</string>
+    <string name="Send_the_following_pictures">发送以下图片？</string>
+    <string name="search_new">搜</string>
+    <string name="phone_number_has_registered">该手机号已注册，请重新登录。</string>
+    <string name="has_registered">已注册</string>
+    <string name="register_des_one">通过手机注册就能帮您找到更多有价值的人，扩展你的专业人脉圈，注册即表示你同意《画家人脉圈服务协议》。</string>
+    <string name="register_des_two">《画家人脉圈服务协议》</string>
+
+    <string name="Delete_the_contact">删除联系人</string>
+    <string name="Move_into_the_blacklist_new">移入到黑名单</string>
+    <string name="Change_the_group_name">改变群名称</string>
+    <string name="Sync_Groups_From_Server">从服务器下载群聊信息</string>
+
+    <string name="update_contact_list">更新联系人列表</string>
+    <string name="update_black_list">更新黑名单</string>
+    <string name="update_groups">更新群聊</string>
+
+    <string name="update_contact_list_failed">更新联系人列表失败</string>
+    <string name="update_black_list_failed">更新黑名单失败</string>
+    <string name="update_groups_failed">更新群聊失败</string>
+
+    <string name="no_more_messages">没有更多的消息了</string>
+    <string name="gorup_not_found">找不到这个群组</string>
+    <string name="chatroom_allow_owner_leave">允许聊天室群主离开</string>
+    <string name="group_id">群ID</string>
+    <string name="move_out_backlist">移出黑名单</string>
+    <string name="input_new_nick_hint">输入新昵称</string>
+    <string name="search_pubic_group">搜索公开群</string>
+    <string name="group_not_existed">群组不存在</string>
+    <string name="group_search_failed">搜索失败</string>
+    <string name="error_send_invalid_content">你发送了不合法的消息内容</string>
+    <string name="error_send_not_in_the_group">你已经不在此群了</string>
+    <string name="refreshing_group_list">正在刷新群列表</string>
+    <string name="failed_to_load_data">加载数据失败，请检查网络或稍后重试</string>
+    <string name="searching">正在搜索..</string>
+    <string name="hanging_up">正在挂断..</string>
+    <string name="illegal_user_name">用户名不合法</string>
+    <string name="robot_chat">环信小助手</string>
+    <string name="title_user_profile">个人资料</string>
+    <string name="nickname">昵称</string>
+    <string name="sim_contact">获取SIM联系人</string>
+    <string name="dl_title_upload_photo">上传头像</string>
+    <string name="dl_msg_local_upload">本地上传</string>
+    <string name="dl_msg_take_photo">拍照上传</string>
+    <string name="toast_no_support">暂不支持！</string>
+    <string name="setting_nickname">设置昵称</string>
+    <string name="dl_ok">确定</string>
+    <string name="dl_cancel">取消</string>
+    <string name="toast_nick_not_isnull">昵称不能为空！</string>
+    <string name="dl_update_nick">更新昵称</string>
+    <string name="dl_update_photo">更新头像</string>
+    <string name="dl_waiting">请等待...</string>
+    <string name="toast_updatenick_success">更新昵称成功!</string>
+    <string name="toast_updatenick_fail">更新昵称失败!</string>
+    <string name="toast_updatephoto_success">更新头像成功!</string>
+    <string name="toast_updatephoto_fail">更新头像失败!</string>
+
+    <string name="positive">确定</string>
+    <string name="negative">取消</string>
+    <string name="unit_second">秒</string>
+    <string name="retry">重试</string>
+
+    <!--user regist-->
+    <string name="improve_mobile_phone_number">请完善手机号</string>
+    <string name="phone_number">手机号</string>
+    <string name="hint_input_phone_number">请输入您的注册手机号</string>
+    <string name="identify_code">验证码</string>
+    <string name="input_identify_code">请输入验证码</string>
+    <string name="get_identify_code">获取验证码</string>
+    <string name="password">密&#160;&#160;&#160;&#160;码</string>
+    <string name="input_psw">请输入6-20位登录密码</string>
+    <string name="get_auth_code">验证码</string>
+    <string name="register_name">用户名</string>
+    <string name="hint_input_user_name">请输入用户名(字母数字下划线组合)</string>
+    <string name="tip_regist_success">注册成功</string>
+    <string name="tip_regist_failed">注册失败</string>
+    <string name="auth_code_tip_wait">请等待验证码短信&#8230;</string>
+    <string name="tip_wrong_username">用户名只能包含数字、字母、下划线</string>
+    <string name="tip_wrong_number">手机号码格式有误,请校验手机号码</string>
+    <string name="auth_code_tip_empty_username">用户名不能为空,请重新输入</string>
+    <string name="auth_code_tip_empty_number">号码不能为空,请重新输入</string>
+    <string name="auth_code_tip_empty_password">密码不能为空,请重新输入</string>
+    <string name="auth_code_tip_password_too_short">密码长度不能小于6位,手机号码格式有误,请重新输入</string>
+    <string name="auth_code_tip_password_not_identical">两次输入密码不一致,请重新输入</string>
+    <string name="open_new_art_circle">开启新的艺圈儿~</string>
+    <string name="register_new_user">注册新用户</string>
+    <string name="seek_truth">求真相</string>
+    <string name="real_name_info">真实姓名</string>
+    <string name="choose_career_direction">选择您从事的职业方向</string>
+    <string name="next_step">下一步</string>
+    <string name="person_info">个人资料</string>
+    <string name="attention_three_major">你可以关注三个专业</string>
+    <string name="select_major_max_num">你最多可以选择三个专业</string>
+    <string name="select_major_min_num">你至少可以选择一个专业</string>
+    <string name="real_name_cannot_empty">真实姓名不能为空</string>
+    <string name="real_name_is_txt">真实姓名必须为汉字</string>
+    <string name="select_major_cannot_empty">从事的职业不能为空</string>
+    <string name="header_img_cannot_empty">用户头像不能为空</string>
+    <string name="commit_personal_info_successful">提交个人资料成功</string>
+    <string name="commit_personal_info_fail">提交个人资料失败</string>
+
+    <!--update contact-->
+    <string name="get_sim_contact_success">获取SIM联系人成功</string>
+    <string name="export_sim_contact_success">导出SIM联系人成功</string>
+    <string name="export_sim_contact_fail">导出SIM联系人失败</string>
+    <string name="is_export_sim_contact">是否导出SIM卡联系人?</string>
+    <string name="is_export_sim_contact_again">SIM卡联系人有更新，是否要重新导出?</string>
+    <string name="export_sim_contact">导出SIM卡联系人</string>
+    <string name="sim_invalid">无SIM卡</string>
+    <string name="sim_clocked">SIM卡被锁定或未知状态</string>
+    <string name="friend">好友</string>
+    <string name="art_circle">艺圈</string>
+    <string name="update_contact">更新通讯录</string>
+    <string name="update_contact_to_art_circle">更新通讯录导艺圈</string>
+    <string name="update_contact_to_art_circle_des">将会给您带来更多好友，请确保已打开联系人权限</string>
+    <string name="update_now">立即更新</string>
+    <string name="update_success">更新成功！！！</string>
+    <string name="update_fail">更新失败！！！</string>
+    <string name="contact_latest">您的通讯录已经是最新的哦~</string>
+    <string name="update_ok">好滴~</string>
+    <string name="update_success_des_one">成功更新了</string>
+    <string name="update_success_des_two">个联系人哦，你的人脉圈会扩大</string>
+    <string name="update_success_des_three">倍哦~</string>
+    <string name="update_fail_des">请检查并确保通讯录的权限已打开\n通用-画家圈-通讯录</string>
+    <string name="contact_latest_des">下次通讯录更新之后，小编会第一时间告知您的哦，么么哒~</string>
+
+    <!--账号-->
+    <string name="account">我</string>
+    <string name="my">我的</string>
+    <string name="code">二维码</string>
+    <string name="influence">影响力：</string>
+    <string name="my_art_circle">我的画家圈</string>
+    <string name="verified_account">认证账号</string>
+    <string name="fans_list">粉丝列表</string>
+    <string name="focus_list">关注列表</string>
+
+    <!--用户信息-->
+    <string name="load_user_info_failed">加载用户信息失败</string>
+    <string name="mobile">手机号:</string>
+    <string name="contact_detail">人脉详情</string>
+    <string name="engaged_in_the_field_of">从事领域</string>
+    <string name="career_direction">职业方向</string>
+    <string name="edit">编辑</string>
+    <string name="give_him_her_label">给他（她）贴标签</string>
+    <string name="work_experience">任职（工作）经历</string>
+    <string name="study_experience">求学（培训）经历</string>
+    <string name="album_painting">画册作品</string>
+    <string name="person_label">个人标签</string>
+    <string name="more_career_info">更多任职（工作）经历...</string>
+    <string name="more_study_info">更多求学（培训）经历...</string>
+    <string name="shrink">收起</string>
+    <string name="camera">相机</string>
+    <string name="photo">相册</string>
+    <string name="set_head_image">选择照片</string>
+    <string name="take_photo">拍张照片</string>
+    <string name="select_photo">从相册选择</string>
+    <string name="rank">排名第</string>
+    <string name="position">位</string>
+    <string name="item">条</string>
+    <string name="qr_code_add_friend">扫描二维码就可以加好友啦~</string>
+    <string name="generate_qr_code_failed">生成二维码失败</string>
+    <string name="his_dynamic">他的动态</string>
+    <string name="add_friends">加好友</string>
+    <string name="focus">关注</string>
+    <string name="send_msg">发消息</string>
+    <string name="fans">粉丝：</string>
+    <string name="had_focused">已关注</string>
+    <string name="invite_upload_album">邀请TA上传画册</string>
+    <string name="invite_upload_album_success">你已邀请TA上传画册</string>
+    <string name="focus_success">关注成功</string>
+    <string name="focus_fail">关注失败</string>
+    <string name="add_friend_success">添加好友成功</string>
+    <string name="add_friend_fail">添加好友失败</string>
+    <string name="send_msg_success">发送消息成功</string>
+    <string name="send_msg_fail">发送消息失败</string>
+    <string name="user_is_not_exist">该用户不存在</string>
+    <string name="black_list">此用户已是你好友(被拉黑状态)，从黑名单列表中移出即可</string>
+    <string name="edit_info_hint">请输入您的理由</string>
+    <string name="second_msg_received_refuse">对方设置了不加二度好友，请拓展其他人脉</string>
+    <string name="second_contacts_with_friend_refuse">对方设置了不接受二度好友消息</string>
+
+    <!--名片信息-->
+    <string name="business_card_info">名片信息</string>
+    <string name="real_name">真实姓名：</string>
+    <string name="sex">性别：</string>
+    <string name="career">职位：</string>
+    <string name="business_card_bg">名片背景</string>
+    <string name="improve_influence_ranking">如何提升影响力排名！</string>
+    <string name="improve_influence_ranking_title">如何提升影响力排名</string>
+    <string name="breeze">清风</string>
+    <string name="shu_ya">风景</string>
+    <string name="po_mo">泼墨</string>
+    <string name="album_select">画册选择</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+
+    <!--职业方向-->
+    <string name="career_direction_modify">职业方向修改</string>
+    <string name="load_career_info_success">加载职业信息成功</string>
+    <string name="load_career_info_failed">加载职业信息失败</string>
+    <string name="load_school_info_failed">加载学校信息失败</string>
+    <string name="edit_career_info_success">编辑职业信息成功</string>
+    <string name="edit_career_info_failed">编辑职业信息失败</string>
+    <string name="add_career_experience_success">添加职业信息成功</string>
+    <string name="add_career_experience_failed">添加职业信息失败</string>
+
+    <!--任职经历-->
+    <string name="career_experience_edit">任职经历修改</string>
+    <string name="add_experience">添加经历</string>
+    <string name="load_work_experience_success">加载任职信息成功</string>
+    <string name="load_work_experience_failed">加载任职信息失败</string>
+    <string name="start_time_cannot_empty">开始时间不能为空</string>
+    <string name="location_cannot_empty">任职工作经历不能为空</string>
+    <string name="location_cannot_max_length">任职工作经历不能超过10个字</string>
+    <string name="position_cannot_empty">职称不能为空</string>
+    <string name="position_cannot_max_length">职称不能超过5个字</string>
+    <string name="edit_work_experience_success">编辑任职信息成功</string>
+    <string name="edit_work_experience_failed">编辑任职信息失败</string>
+    <string name="add_work_experience_success">添加任职信息成功</string>
+    <string name="add_work_experience_failed">添加任职信息失败</string>
+    <string name="delete_work_experience_success">删除任职信息成功</string>
+    <string name="delete_work_experience_failed">删除任职信息失败</string>
+    <string name="et_work_experience">任职经历修改</string>
+    <string name="add_work_experience">任职经历添加</string>
+    <string name="et_work_school">任职（工作）经历：</string>
+    <string name="et_work_position">职称：</string>
+    <string name="et_work_time">时间：</string>
+    <string name="et_work_des">描述：</string>
+    <string name="colon">:</string>
+    <string name="select_time">请选择时间</string>
+    <string name="so_far">至今</string>
+    <string name="sure_you_delete">你确定要删除吗?</string>
+
+    <!--求学经历-->
+    <string name="study_experience_edit">求学经历修改</string>
+    <string name="load_study_experience_success">加载求学信息成功</string>
+    <string name="load_study_experience_failed">加载求学信息失败</string>
+    <string name="school_cannot_empty">学校不能为空</string>
+    <string name="major_cannot_empty">专业不能为空</string>
+    <string name="academic_cannot_empty">学历不能为空</string>
+    <string name="edit_study_experience_success">编辑求学信息成功</string>
+    <string name="edit_study_experience_failed">编辑求学信息失败</string>
+    <string name="add_study_experience_success">添加求学信息成功</string>
+    <string name="add_study_experience_failed">添加求学信息失败</string>
+    <string name="delete_study_experience_success">删除求学信息成功</string>
+    <string name="delete_study_experience_failed">删除求学信息失败</string>
+    <string name="et_study_experience">求学经历修改</string>
+    <string name="add_study_experience">求学经历添加</string>
+    <string name="et_study_school">学校：</string>
+    <string name="et_study_position">专业：</string>
+    <string name="et_study_education">学历：</string>
+    <string name="choose_major">选择专业</string>
+    <string name="choose_academic">选择学历</string>
+    <string name="choose_school">选择学校</string>
+    <string name="submit">提交</string>
+    <string name="choose_major_from_list">从以下列表中选择您的专业</string>
+    <string name="choose_academic_from_list">从以下列表中选择您的学历</string>
+    <string name="stime_not_greater_than_etime">开始时间不能大于或等于结束时间</string>
+    <string name="etime_not_greater_than_current_time">结束时间不能大于现在时间</string>
+    <string name="stime_not_greater_than_current_time">开始时间不能大于现在时间</string>
+    <string name="stime_not_so_for">开始时间不为当前时间</string>
+    <string name="school_list_hint_edit">请务必输入您就读学校的全称</string>
+    <string name="load_school_info_empty">学校为空</string>
+    <string name="choose_school_no_school">没有匹配的学校，请自行输入</string>
+
+    <!--画册管理-->
+    <string name="album_management">画册列表</string>
+    <string name="load_album_success">加载画册成功</string>
+    <string name="load_album_fail">加载画册失败</string>
+    <string name="load_failed">加载失败，请检查您的网络设置..</string>
+    <string name="refresh_failed">刷新失败，请检查您的网络设置..</string>
+    <string name="new_album">新建画册</string>
+    <string name="no_album_des">您还没有添加任何画册，添加一个吧</string>
+    <string name="add_album_des">添加画册有助于让别人更快的认识你~</string>
+    <string name="invite_check_album_des">告诉他，你要看看他的画</string>
+    <string name="invite_add_album_des">他（她）还没有添加任何画册，让他添加一个吧~</string>
+    <string name="picture_album_name">画册名称:</string>
+    <string name="artist_note">创作简介:</string>
+    <string name="album_name_limit">名词最多十个汉字</string>
+    <string name="artist_note_des">说点什么呗~，方便更多的人来欣赏购买您的画作</string>
+    <string name="album_name_is_not_empty">画册名称不能为空</string>
+    <string name="create_album_success">创建画册成功</string>
+    <string name="create_album_fail">创建画册失败</string>
+    <string name="upload">上传</string>
+    <string name="start_create">开始创建</string>
+    <string name="add_album">添加一个作品吧</string>
+    <string name="add_album_note">没有任何作品的画册我们将不会为您保留，敬请理解</string>
+    <string name="start_add">开始添加</string>
+    <string name="add_picture">添加作品</string>
+    <string name="upload_album_success">上传画册成功</string>
+    <string name="upload_album_fail">上传画册失败</string>
+    <string name="upload_album">上传作品</string>
+    <string name="cover">封面</string>
+    <string name="edit_album">编辑画册</string>
+    <string name="delete_album">删除画册</string>
+    <string name="share_album">分享</string>
+    <string name="select_cover">选择封面</string>
+    <string name="update_cover">更换封面：</string>
+    <string name="edit_cover">编辑画册</string>
+    <string name="edit_album_success">修改画册成功</string>
+    <string name="edit_album_fail">修改画册失败</string>
+    <string name="edit_cover_success">修改封面成功</string>
+    <string name="edit_cover_fail">修改封面失败</string>
+    <string name="delete_album_success">删除画册成功</string>
+    <string name="delete_album_fail">删除画册失败</string>
+    <string name="album_detail">画册详情</string>
+    <string name="album_preview">画册预览</string>
+    <string name="load_album_detail_success">加载画册详情成功</string>
+    <string name="load_album_detail_fail">加载画册详情失败</string>
+    <string name="album_is_not_empty">画册不能为空</string>
+    <string name="map_storage_is_empty">图库中没有图片</string>
+
+    <!--个人标签-->
+    <string name="add_custom">+ 自定义添加</string>
+    <string name="add_custom_max_count">最多添加20个标签</string>
+    <string name="load_label_success">加载标签成功</string>
+    <string name="load_label_failed">加载标签失败</string>
+    <string name="load_person_label_success">加载个人标签成功</string>
+    <string name="load_person_label_failed">加载个人标签失败</string>
+    <string name="add_label_success">添加个人标签成功</string>
+    <string name="add_label_failed">添加个人标签失败</string>
+    <string name="delete_label_success">删除个人标签成功</string>
+    <string name="delete_label_failed">删除个人标签失败</string>
+    <string name="my_no_label_des_one">您还没有添加任何个人标签哦，</string>
+    <string name="my_no_label_des_two">添加标签有助于让别人更快的认识你~</string>
+    <string name="you_no_label_des_one">他没有添加任何个人标签哦，</string>
+    <string name="you_no_label_des_two">快来帮他贴标签吧~</string>
+    <string name="input_person_label">请输入您的标签</string>
+    <string name="name_can_ont_empty">标签名不能为空</string>
+    <string name="label_can_ont_empty">选择标签不能为空</string>
+    <string name="label_has_existence">该标签已存在</string>
+    <string name="label_name_length_max">标签长度不能大于5个字</string>
+
+    <!--名片信息-->
+    <string name="load_business__card_info_success">加载个人名片成功</string>
+    <string name="load_business__card_info_failed">加载个人名片失败</string>
+    <string name="edit_business__card_info_success">修改个人名片成功</string>
+    <string name="edit_business__card_info_failed">修改个人名片失败</string>
+    <string name="delete_card_bg_success">删除个人名片成功</string>
+    <string name="delete_card_bg_failed">删除个人名片失败</string>
+
+    <!--影响力排行-->
+    <string name="influence_rank">影响力排行</string>
+    <string name="load_influence_rank_success">加载影响力排行成功</string>
+    <string name="load_influence_rank_failed">加载影响力排行失败</string>
+    <string name="my_influence_rank">你排在好友中的第</string>
+
+    <!--画家圈-->
+    <string name="painter_circle">我的画家圈</string>
+    <string name="send_release_dynamic">我发布的实名动态</string>
+    <string name="participate_release_dynamic">我参与的实名动态</string>
+    <string name="send_anonymous_dynamic">我发布的匿名动态</string>
+    <string name="participate_anonymous_dynamic">我参与的匿名动态</string>
+    <string name="get_send_release_dynamic_fail">获取我发布的实名动态失败</string>
+    <string name="get_participate_release_dynamic_fail">获取我参与的实名动态失败</string>
+    <string name="album_cover">画册封面</string>
+
+    <!--认证邀请-->
+    <string name="invite_certification">认证邀请</string>
+    <string name="invite">邀请</string>
+    <string name="have_invited">已邀请</string>
+    <string name="why_certification_invite">为什么要认证</string>
+    <string name="all_invite">全部邀请</string>
+    <string name="load_certification_invite_success">加载认证信息成功</string>
+    <string name="load_certification_invite_failed">加载认证信息失败</string>
+    <string name="invite_success">邀请成功</string>
+    <string name="invite_failed">邀请失败</string>
+    <string name="why_to_certification">为什么要认证</string>
+    <string name="why_des">1：根据影响力定期推送 \n \n2：发的越多，影响力越大 \n \n3：发的越多，一起的关注量越大\n\n</string>
+
+    <!--focus list-->
+    <string name="unfocus">取消关注</string>
+    <string name="load_focus_list_success">加载关注列表成功</string>
+    <string name="load_focus_list_fail">加载关注列表失败</string>
+    <string name="unfocus_success">取消关注成功</string>
+    <string name="unfocus_fail">取消关注失败</string>
+    <string name="together">共</string>
+    <string name="much_focus">位关注者</string>
+
+    <!--粉丝列表-->
+    <string name="more_fans">获得更多粉丝秘籍</string>
+    <string name="load_fans_list_success">加载粉丝列表成功</string>
+    <string name="load_fans_list_fail">加载粉丝列表失败</string>
+    <string name="secret">秘籍</string>
+    <string name="for_fans_kept_secret">获得粉丝秘籍</string>
+    <string name="company_name">北京今起文化科技有限公司\n\n2015年07月30号</string>
+
+    <!--设置-->
+    <string name="account_info">账号信息</string>
+    <string name="focus_areas">关注领域</string>
+    <string name="notification">消息提醒</string>
+    <string name="second_msg_received">二度人脉会话接收</string>
+    <string name="second_contacts_with_friend">二度人脉加好友设置</string>
+    <string name="give_us_high_praise">给我们好评</string>
+    <string name="check_new_version">检查新版本</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="about_us">关于我们</string>
+    <string name="suggestion">投诉建议</string>
+    <string name="privacy_legal_documents">隐私的法律文件</string>
+    <string name="edit_password">修改密码</string>
+    <string name="privacy_strategy">隐私策略</string>
+    <string name="current_version">当前版本</string>
+    <string name="submit_clear_cache">确定要清除画家圈本地缓存数据？</string>
+
+    <!--修改密码-->
+    <string name="modify_password">修改密码</string>
+    <string name="cancel_modify_password">取消修改密码?</string>
+    <string name="continue_modify">继续修改</string>
+    <string name="confirm_cancel">确认取消</string>
+    <string name="enter_original_password">请输入原密码</string>
+    <string name="enter_new_password">请输入6&#8211;20位新密码</string>
+    <string name="enter_new_password_again">请再输入一遍新密码</string>
+    <string name="modify_password_success">修改密码成功，请重新登录！</string>
+    <string name="modify_password_fail">修改密码失败</string>
+    <string name="you_have_not_logged_in">你还未登录</string>
+    <string name="fill_in_original_password">请填写原密码</string>
+    <string name="new_password_between">新密码长度长度需要6&#8211;20之间</string>
+    <string name="two_input_password_different">两次输入密码不一致，请重新输入</string>
+
+    <!--修改手机号-->
+    <string name="modify_phone_number">修改手机号</string>
+    <string name="auth_code_invalid">验证码失效，请重新获取</string>
+    <string name="checking_phone_number">正在校验&#8230;</string>
+    <string name="wrong_number_or_code">手机号有误或者验证码为空</string>
+    <string name="check_phone_failed">手机校验失败</string>
+    <string name="check_phone_success">手机校验成功</string>
+    <string name="dialog_title_commit_info">提交信息</string>
+    <string name="dialog_msg_not_check_phone">手机验证未通过，确定提交?</string>
+    <string name="cancel_modify_auth_code">取消手机验证?</string>
+    <string name="modify_phone_number_failed">修改手机号失败</string>
+    <string name="modify_phone_number_success">修改手机号成功,下次请用新手机号登录</string>
+
+    <!--退出登录-->
+    <string name="sure_logout">您确定要退出登录吗？</string>
+
+    <!--about us-->
+    <string name="contact_us_qq">QQ: 145268901</string>
+    <string name="contact_us_wx">微信: sjjb2006</string>
+    <string name="contact_us_twitter">微博: 手机鉴宝-博宝</string>
+    <string name="contact_us_tel">电话: 010&#8211;68703488</string>
+
+    <!---投诉建议-->
+    <string name="complaint_advice">投诉建议</string>
+    <string name="input">请输入......</string>
+    <string name="load_art_circle_fail">获取画家人脉圈信息失败</string>
+    <string name="feedback_content_empty">发送返回信息为空</string>
+
+    <!--邀请好友-->
+    <string name="invite_friend">邀请好友</string>
+    <string name="direct_invitation">直接邀请</string>
+    <string name="load_info_success">加载信息成功</string>
+    <string name="load_info_fail">加载信息失败</string>
+    <string name="invite_friend_success">邀请好友成功</string>
+    <string name="invite_friend_fail">邀请好友失败</string>
+
+    <string name="loaded">加载完成</string>
+    <string name="loading">正在加载...</string>
+    <string name="loading_failed">加载失败</string>
+    <string name="no_data">暂无数据</string>
+    <string name="no_more_data">没有更多数据了</string>
+    <string name="cannot_connect_network">无网络连接，请检查您的网络设置..</string>
+
+    <string name="load_dynamic_failed">获取动态详情失败</string>
+    <string name="send_comment_failed">发送评论失败</string>
+    <string name="send_comment_success">发送评论成功</string>
+    <string name="send_comment_not_empty">发送内容不能为空</string>
+    <string name="can_not_comment_yourself">不能自己回复自己</string>
+    <string name="hint_reply_head">回复&#160;&#160;</string>
+    <string name="replay_middle">&#160;回复&#160;</string>
+    <string name="get_more_commments">查看更多评论</string>
+
+    <string name="no_storage_tip">暂无外部存储</string>
+    <string name="tip_selected_photos_enough">选择图片数已达上限</string>
+    <string name="add_photo">添加图片</string>
+    <string name="say_something">来聊聊咱画家的事儿~</string>
+    <string name="content_not_empty">内容不能为空</string>
+    <string name="content_not_more_than_max_size">内容不能超过140个字</string>
+    <string name="submit_failed">发表动态失败</string>
+
+    <string name="can_not_connect">无法连接到服务器</string>
+    <string name="time_out">响应超时</string>
+    <string name="socket_exception">服务器异常</string>
+    <string name="too_large">上传文件过大</string>
+    <string name="submit_fialed">发表动态失败</string>
+    <string name="submit_success">发表动态成功</string>
+    <string name="publish_dynamic">发表动态</string>
+    <string name="loading_success">加载成功</string>
+    <string name="praise_failed">点赞失败</string>
+    <string name="praise_success">点赞成功</string>
+    <string name="tip_already_praise">已经点赞了</string>
+    <string name="tip_waiting">请稍候..</string>
+    <string name="tag_praise">点赞</string>
+    <string name="tag_already_praised">已赞</string>
+    <string name="tag_cancel_follow">取消关注</string>
+    <string name="tag_follow">关注</string>
+    <string name="tip_cancel_follow_success">取消关注成功</string>
+    <string name="tip_follow_success">关注成功</string>
+    <string name="tip_cancel_follow_failed">取消关注失败</string>
+    <string name="tip_follow_failed">关注失败</string>
+    <string name="can_not_follow_yourself">不能关注自己</string>
+    <string name="can_not_praise_yourself">不能自己赞自己</string>
+    <string name="follow_you">关注了你</string>
+    <string name="praise_you">赞了你</string>
+    <string-array name="deleteArr">
+        <item>删除会话</item>
+        <item>删除会话和消息</item>
+    </string-array>
+
+    <!-- 人脉圈 -->
+    <string name="connection_circle">人脉圈儿</string>
+    <string name="get_to_know_artist">结识画家</string>
+    <string name="get_to_know_gallery">结识画廊</string>
+    <string name="get_to_know_art_business">结识画商</string>
+    <string name="once_connection_manager">管理一度人脉</string>
+    <string name="find_second_connection">发现二度人脉</string>
+    <string name="connection_distribute">人脉分布</string>
+    <string name="attention_artist">关注名家</string>
+    <string name="attention_artist_count">99+</string>
+    <string name="invited_address_list">邀请通讯录好友</string>
+    <string name="invited_friend">邀请好友</string>
+    <string name="second_connection_friend">二度好友</string>
+
+    <string name="invited_all_friend">全部邀请</string>
+    <string name="invited">邀请</string>
+
+    <item name="tag_user_id" type="id"/>
+    <item name="tag_user_mobile" type="id"/>
+    <item name="tag_user_name" type="id"/>
+    <item name="tag_id" type="id"/>
+    <item name="tag_user" type="id"/>
+    <item name="tag_is_fans" type="id"/>
+    <item name="tag_user_portrait" type="id"/>
+    <item name="tag_person_label_select" type="id"/>
+    <item name="tag_person_label_default" type="id"/>
+    <item name="tag_is_share_album" type="id"/>
+
+    <string name="invited_friend_directly">直接邀请</string>
+    <string name="invited_success">邀请成功</string>
+    <string name="invited_failed">邀请失败</string>
+    <string name="already_attention">已关注</string>
+    <string name="attention">关注</string>
+    <string name="attention_success">关注成功</string>
+    <string name="attention_failed">关注失败</string>
+
+    <string name="finished_choice_photo">点击完成</string>
+
+    <item name="tag_real_name" type="id"/>
+    <string name="recommend_artist">为您推荐圈内大咖</string>
+    <string name="invited_friends_play">邀请好友一起玩儿吧</string>
+    <string name="jump">跳过</string>
+    <string name="invited_and_begin">邀请并开始软件</string>
+    <string name="accepted">已同意</string>
+    <string name="certify">认证</string>
+    <string name="refuse">拒 绝</string>
+    <string name="refused">已拒绝</string>
+
+    <string name="art_circle_service_agreement">画家人脉圈服务协议</string>
+
+    <string name="small_make_up_remind_you">小编提醒您！！！</string>
+    <string name="perfect_contact_detail_des">完善资料能够提升您的影响力排名哦~ \n 能让更多的人认识您哦。</string>
+    <string name="perfect_data">完善资料</string>
+
+    <string name="logoff_notification">下线通知</string>
+    <string name="logoff_notification_note_one">您的账号于</string>
+    <string name="logoff_notification_note_two">在另一台设备登录，如非您本人操作，则密码可能已经泄露，建议立即修改密码。</string>
+    <string name="relogin">重新登录</string>
+    <string name="relogin_success">重新登录成功</string>
+    <string name="relogin_failed">重新登录失败</string>
+
+    <string name="user_not_exist">该用户不存在</string>
+
+    <string name="not_login">您还未登录</string>
+    <string name="confirm_login">是否要登录</string>
+
+    <string name="go_for_login">去登录</string>
+
+    <string name="press_back_again">再按一次返回键退出</string>
+
+    <string name="setting_success">设置成功</string>
+    <string name="setting_failed">设置失败</string>
+    <string name="temporary_session">(临时)</string>
+
+    <string name="official_assistant">官方助手</string>
+    <string name="system_message">系统消息</string>
+
+    <string name="no_call_permission">没有拨打电话的权限</string>
+
+    <string name="hint_input_login_phone_number">请输入您的手机号</string>
+    <string name="hint_input_login_password">请输入您的密码</string>
+
+    <string name="dynamic_action_comments">评论</string>
+    <string name="check_all_content">查看全部内容</string>
+
+    <string name="publish">发布</string>
+
+    <string name="must_flag">*</string>
+    <string name="attention_finished">今天关注的名家完了，明天再来吧~~ ^_^ ~~</string>
+
+    <string name="enter_has_exceeded_the_limit">内容不能超过200字!</string>
+
+    <string name="tab_home_page">首页</string>
+    <string name="tab_message">信息</string>
+    <string name="tab_art_circle">画家圈</string>
+    <string name="tab_account">我的</string>
+
+    <string name="official_assistant_helper">官方助手通知</string>
+
+    <string name="is_uploading">正在上传...</string>
+    <string name="title_dynamic_detail">动态详情</string>
+
+    <string name="accept_failed">请求失败!</string>
+
+    <string name="no_sys_msgs">暂时没有系统消息</string>
+    <string name="contact_us_sina">微博: 手机鉴宝-博宝</string>
+    <string name="telephone">电话：</string>
+    <string name="export_sim_contact_empty">SIM联系人为空</string>
+    <string name="auth_code_tip_password_too_long">密码长度不能多于20位,请重新输入</string>
+
+    <string name="friend_list">好友列表</string>
+
+    <string name="name_max_length">名字最大长度不能超过4个字</string>
+    <string name="honor_max_length">职位最大长度不能超过10个字</string>
+
+    <string name="click_retry">点击重发</string>
+    <string name="no_network_publish_dynamic">无网络，请您在有网络的状态下发布</string>
+
+    <string name="warn">提醒</string>
+    <string name="submit_failed_warn_net">上传失败！您当前网络链接不佳，请切换至稳定网络重新上传。</string>
+    <string name="submit_failed_warn_server">上传失败！由于目前服务器繁忙，请您稍后再试或者联系客服QQ：2355667927。</string>
+    <string name="second_Generation_Net">您当前为2G网络，上传将会耗时较长且信号不稳定会导致上传失败，建议切换至wifi网络上传.本次您需要上传图片大小为：</string>
+    <string name="mobile_net">您当前为非wifi网络，请保持信号稳定，上传中不要切换网路，以免上传失败。本次您需要上传图片大小为：</string>
+    <string name="kb">kb</string>
+    <string name="not_network_commit_album">当前网络无连接，请您检查并确认网络链接无误后再次提交画册。</string>
+
+    <string name="is_publishing">正在发布...</string>
+    <string name="hint_input_new_phone_number">请输入您的新的手机号</string>
+    <string name="verify_phone_number">验证手机号</string>
+    <string name="mobile_is_not_empty">手机号不能为空</string>
+    <string name="auth_code_is_not_empty">验证码不能为空</string>
+
+    <string name="woman_dynamic">她的动态</string>
+    <string name="man_dynamic">他的动态</string>
+
+    <string name="back_key_stop_upload">停止上传</string>
+    <item name="tag_text" type="id"/>
+
+    <string name="send_img_is_empty">所选图片为空，请重新选择</string>
+    <string name="refreshing_sys_message_list">正在获取消息列表</string>
+
+    //忘记密码
+    <string name="find_password">找回密码</string>
+    <string name="hint_input_your_phone_number">请输入您的手机号</string>
+    <string name="reset_password">重置密码</string>
+    <string name="reset_password_success">重置密码成功，正在登录...</string>
+    <string name="reset_password_fail">重置密码失败</string>
+    <string name="cancel_found_auth_code">取消找回密码?</string>
+    <string name="continue_found">继续找回</string>
+    <string name="cancel_reset_auth_code">取消重置密码?</string>
+    <string name="continue_reset">继续重置</string>
+
+    <string name="you_have">您有</string>
+    <string name="new_second_connection">个新的二度好友</string>
+
+    <string name="rich_scan">扫一扫</string>
+
+    <string name="scan_failed">二维码扫描失败</string>
+
+    <string name="scan_des">将二维码放入框内，即可自动扫描</string>
+
+    <!--cache clean-->
+    <string name="cache_no_need_clean">没有缓存</string>
+    <string name="cache_clean_failed">清除缓存失败</string>
+    <string name="cache_clean_result">缓存清除成功</string>
+
+    <!--update-->
+    <string name="update_info_failed">获取更新信息失败</string>
+    <string name="update_dialog_title">版本更新</string>
+    <string name="update_loading_dialog_title">正在检测更新</string>
+    <string name="update_latest">已经是最新版本</string>
+
+    <!--search-->
+    <string name="maybe_find">你可能想找</string>
+    <string name="find_more_data">请输入想要搜寻的人名或者动态关键字</string>
+    <string name="find_result_not_satisfied">搜到结果不满意，请告诉我们！</string>
+    <string name="find_no_data">哎~，没有搜到o(︶︿︶)o ！</string>
+    <string name="find_in_a_batch">换一批</string>
+    <string name="recommend_attention_artist">为您推荐名家大咖</string>
+    <string name="connection">人脉</string>
+
+    <string name="colon_chinese">，</string>
+
+    <string name="more_connection">更多联系人</string>
+    <string name="more_dynamic">更多动态</string>
+
+    <string name="my_address">我的地址是：</string>
+    <string name="send_user_card">给您推荐了名片</string>
+
+    <string name="phone_voice">[语音]</string>
+    <string name="gps_unavailable">请打开GPS</string>
+
+    <string name="share_user_card">[分享名片]</string>
+
+    <string name="chat_share_album">[分享画册]</string>
+    <string name="unable_to_get_album">无法获取到您的画册信息!</string>
+    <string name="share_user_album">给您分享了画册</string>
+    <string name="count_album_num">共%1$s张作品</string>
+
+    <string name="art_friend">画家好友</string>
+
+    <string name="card">名片</string>
+
+    <string name="save_img_failed">保存图片失败</string>
+    <string name="forward_img_failed">转发图片失败</string>
+    <string name="save_img_des">图片已保存到</string>
+    <string name="save_img_des_two">文件夹下</string>
+
+    <string name="save_img">保存到手机</string>
+    <string name="forward_msg_failed">转发消息失败</string>
+
+    <string name="download_failed">下载失败</string>
+
+    <string name="confirm_select_to">确定要选择：</string>
+    <string name="confirm_share_to">确定分享到：</string>
+
+    <string name="recent_contacts">最近联系人</string>
+    <string name="phone_call">呼叫</string>
+
+    <string name="camera_unavailable">请打开拍照权限！</string>
+
+    <string name="other_details">对方详情</string>
+    <string name="stick_conversation">会话置顶</string>
+    <string name="cancel_stick_conversation">取消置顶</string>
+
+    <string name="share_success">"分享成功"</string>
+    <string name="share_fail">"分享失败"</string>
+    <string name="share_cancel">"分享取消"</string>
+    <string name="oauth_success">"授权成功"</string>
+    <string name="oauth_fail">"授权失败"</string>
+    <string name="oauth_cancel">"授权取消"</string>
+
+    <string name="request_install_wx">未安装微信</string>
+    <string name="request_install_qq">未安装QQ</string>
+</resources>

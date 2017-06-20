@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/res/merged/H5/debug/drawable-xhdpi-v4/shadow_right.png",
+        "source": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/exploded-aar/me.imid.swipebacklayout.lib/library/1.0.0/res/drawable-xhdpi-v4/shadow_right.png"
+    },
+    {
+        "merged": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/res/merged/H5/debug/drawable-xhdpi-v4/shadow_left.png",
+        "source": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/exploded-aar/me.imid.swipebacklayout.lib/library/1.0.0/res/drawable-xhdpi-v4/shadow_left.png"
+    },
+    {
+        "merged": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/res/merged/H5/debug/drawable-xhdpi-v4/shadow_bottom.png",
+        "source": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/exploded-aar/me.imid.swipebacklayout.lib/library/1.0.0/res/drawable-xhdpi-v4/shadow_bottom.png"
+    },
+    {
+        "merged": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/res/merged/H5/debug/drawable-xhdpi-v4/shadow_right.png",
+        "source": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/ArtCircle/app/build/intermediates/exploded-aar/me.imid.swipebacklayout.lib/library/1.0.0/res/drawable-xhdpi-v4/shadow_right.png"
+    },
+    {
+        "merged": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/res/merged/H5/debug/drawable-xhdpi-v4/shadow_bottom.png",
+        "source": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/exploded-aar/me.imid.swipebacklayout.lib/library/1.0.0/res/drawable-xhdpi-v4/shadow_bottom.png"
+    },
+    {
+        "merged": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/res/merged/H5/debug/drawable-xhdpi-v4/shadow_left.png",
+        "source": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/ArtCircle/app/build/intermediates/exploded-aar/me.imid.swipebacklayout.lib/library/1.0.0/res/drawable-xhdpi-v4/shadow_left.png"
+    }
+]
